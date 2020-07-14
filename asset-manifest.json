@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/ppf-my/static/css/main.5a14f4de.chunk.css",
-    "main.js": "/ppf-my/static/js/main.033201f1.chunk.js",
-    "main.js.map": "/ppf-my/static/js/main.033201f1.chunk.js.map",
+    "main.css": "/ppf-my/static/css/main.fe40fa75.chunk.css",
+    "main.js": "/ppf-my/static/js/main.55a86ac0.chunk.js",
+    "main.js.map": "/ppf-my/static/js/main.55a86ac0.chunk.js.map",
     "runtime-main.js": "/ppf-my/static/js/runtime-main.7b79a7c2.js",
     "runtime-main.js.map": "/ppf-my/static/js/runtime-main.7b79a7c2.js.map",
     "static/css/2.50af1a40.chunk.css": "/ppf-my/static/css/2.50af1a40.chunk.css",
-    "static/js/2.4562ff2f.chunk.js": "/ppf-my/static/js/2.4562ff2f.chunk.js",
-    "static/js/2.4562ff2f.chunk.js.map": "/ppf-my/static/js/2.4562ff2f.chunk.js.map",
+    "static/js/2.41e7f5c8.chunk.js": "/ppf-my/static/js/2.41e7f5c8.chunk.js",
+    "static/js/2.41e7f5c8.chunk.js.map": "/ppf-my/static/js/2.41e7f5c8.chunk.js.map",
     "index.html": "/ppf-my/index.html",
-    "precache-manifest.0cd72b66b9b70bee4a1e9e6f5b7f558a.js": "/ppf-my/precache-manifest.0cd72b66b9b70bee4a1e9e6f5b7f558a.js",
+    "precache-manifest.35c7688751e22570d2c6e4a7d353e802.js": "/ppf-my/precache-manifest.35c7688751e22570d2c6e4a7d353e802.js",
     "service-worker.js": "/ppf-my/service-worker.js",
     "static/css/2.50af1a40.chunk.css.map": "/ppf-my/static/css/2.50af1a40.chunk.css.map",
-    "static/css/main.5a14f4de.chunk.css.map": "/ppf-my/static/css/main.5a14f4de.chunk.css.map",
-    "static/js/2.4562ff2f.chunk.js.LICENSE.txt": "/ppf-my/static/js/2.4562ff2f.chunk.js.LICENSE.txt",
+    "static/css/main.fe40fa75.chunk.css.map": "/ppf-my/static/css/main.fe40fa75.chunk.css.map",
+    "static/js/2.41e7f5c8.chunk.js.LICENSE.txt": "/ppf-my/static/js/2.41e7f5c8.chunk.js.LICENSE.txt",
     "static/media/APP_dollar.svg": "/ppf-my/static/media/APP_dollar.ab866af1.svg",
     "static/media/APP_facebook.svg": "/ppf-my/static/media/APP_facebook.66574d20.svg",
     "static/media/APP_hashtag.svg": "/ppf-my/static/media/APP_hashtag.28681484.svg",
@@ -31,18 +31,23 @@
     "static/media/APP_twitter.svg": "/ppf-my/static/media/APP_twitter.09421e84.svg",
     "static/media/APP_zavinac.svg": "/ppf-my/static/media/APP_zavinac.85bb96b4.svg",
     "static/media/FB.svg": "/ppf-my/static/media/FB.9d9f36eb.svg",
+    "static/media/IT.svg": "/ppf-my/static/media/IT.7fc8703e.svg",
     "static/media/Linkedin.svg": "/ppf-my/static/media/Linkedin.b6a917b3.svg",
     "static/media/app.scss": "/ppf-my/static/media/gilroy.0f6e082f.otf",
+    "static/media/grafik.svg": "/ppf-my/static/media/grafik.3cc19e4f.svg",
     "static/media/hambac.svg": "/ppf-my/static/media/hambac.69fa9e1a.svg",
     "static/media/instagram.svg": "/ppf-my/static/media/instagram.0f5b7269.svg",
     "static/media/logo.svg": "/ppf-my/static/media/logo.4a807c65.svg",
-    "static/media/twitter.svg": "/ppf-my/static/media/twitter.e489427b.svg"
+    "static/media/maskot.svg": "/ppf-my/static/media/maskot.468c2652.svg",
+    "static/media/obchodnik.svg": "/ppf-my/static/media/obchodnik.e6867164.svg",
+    "static/media/twitter.svg": "/ppf-my/static/media/twitter.e489427b.svg",
+    "static/media/vyvojar.svg": "/ppf-my/static/media/vyvojar.a8c8cb92.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.7b79a7c2.js",
     "static/css/2.50af1a40.chunk.css",
-    "static/js/2.4562ff2f.chunk.js",
-    "static/css/main.5a14f4de.chunk.css",
-    "static/js/main.033201f1.chunk.js"
+    "static/js/2.41e7f5c8.chunk.js",
+    "static/css/main.fe40fa75.chunk.css",
+    "static/js/main.55a86ac0.chunk.js"
   ]
 }

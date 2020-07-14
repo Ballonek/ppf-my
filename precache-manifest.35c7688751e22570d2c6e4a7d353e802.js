@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f1e682abe8612c6771ef3c7cde4463f2",
+    "revision": "5a5e50d799b282ac5db45682223f58c6",
     "url": "/ppf-my/index.html"
   },
   {
-    "revision": "275bb0aacafa72f0ce33",
+    "revision": "723552af9e14ef28c6ad",
     "url": "/ppf-my/static/css/2.50af1a40.chunk.css"
   },
   {
-    "revision": "440d6b645c34dd402e4d",
-    "url": "/ppf-my/static/css/main.5a14f4de.chunk.css"
+    "revision": "627499f6642d5288a765",
+    "url": "/ppf-my/static/css/main.fe40fa75.chunk.css"
   },
   {
-    "revision": "275bb0aacafa72f0ce33",
-    "url": "/ppf-my/static/js/2.4562ff2f.chunk.js"
+    "revision": "723552af9e14ef28c6ad",
+    "url": "/ppf-my/static/js/2.41e7f5c8.chunk.js"
   },
   {
     "revision": "b31c97d4ccc6ba2693e5b97185f7a61d",
-    "url": "/ppf-my/static/js/2.4562ff2f.chunk.js.LICENSE.txt"
+    "url": "/ppf-my/static/js/2.41e7f5c8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "440d6b645c34dd402e4d",
-    "url": "/ppf-my/static/js/main.033201f1.chunk.js"
+    "revision": "627499f6642d5288a765",
+    "url": "/ppf-my/static/js/main.55a86ac0.chunk.js"
   },
   {
     "revision": "5d2fbfc2b840221df02a",
@@ -96,6 +96,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ppf-my/static/media/FB.9d9f36eb.svg"
   },
   {
+    "revision": "7fc8703e8916a1b48cfbba7f3395c9b6",
+    "url": "/ppf-my/static/media/IT.7fc8703e.svg"
+  },
+  {
     "revision": "b6a917b320738650d2f7d0959bfaff7e",
     "url": "/ppf-my/static/media/Linkedin.b6a917b3.svg"
   },
@@ -106,6 +110,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0f6e082f42f5247d82c3ade9c2a8f928",
     "url": "/ppf-my/static/media/gilroy.0f6e082f.otf"
+  },
+  {
+    "revision": "3cc19e4f318db9c99db24fa4e54cfd68",
+    "url": "/ppf-my/static/media/grafik.3cc19e4f.svg"
   },
   {
     "revision": "69fa9e1a6241e3fa8bbdb796fe8ced5a",
@@ -120,7 +128,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ppf-my/static/media/logo.4a807c65.svg"
   },
   {
+    "revision": "468c265210d511de29c2ebdd5d6cdaf6",
+    "url": "/ppf-my/static/media/maskot.468c2652.svg"
+  },
+  {
+    "revision": "e6867164df3652e087ec09a6fc63cdae",
+    "url": "/ppf-my/static/media/obchodnik.e6867164.svg"
+  },
+  {
     "revision": "e489427b357ed58bde367a6a999e574c",
     "url": "/ppf-my/static/media/twitter.e489427b.svg"
+  },
+  {
+    "revision": "a8c8cb92b66dfda57e2fd735087be651",
+    "url": "/ppf-my/static/media/vyvojar.a8c8cb92.svg"
   }
 ]);
