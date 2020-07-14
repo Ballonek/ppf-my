@@ -45,11 +45,7 @@ const CarrerCard = ({
         >
           <div className="modalRowCareer">
             <div className="icon-wrapper">
-              <img
-                className="careerIcon"
-                src={"/career/" + icon + ".svg"}
-                alt={title + " icon"}
-              />
+              <img className="careerIcon" src={icon} alt={title + " icon"} />
               <div className="title">{ReactHtmlParser(title)}</div>
             </div>
             <div className="panel1 leftText">

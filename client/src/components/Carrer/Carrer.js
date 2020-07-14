@@ -3,14 +3,15 @@ import { withTranslation } from "react-multi-lang"
 import Carousel from "@brainhubeu/react-carousel"
 import "@brainhubeu/react-carousel/lib/style.css"
 import CareerCard from "./CarrerCard"
+import { grafik, vyvojar, obchodnik } from "../../assets/career"
 
-import './style.scss'
+import "./style.scss"
 import { Container } from "reactstrap"
 
 const employes = [
-  { name: "designer", icon: "grafik" },
-  { name: "developer", icon: "vyvojar" },
-  { name: "salesman", icon: "obchodnik" },
+  { name: "designer", icon: grafik },
+  { name: "developer", icon: vyvojar },
+  { name: "salesman", icon: obchodnik },
 ]
 
 const Carrer = ({ t }) => {
