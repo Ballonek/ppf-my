@@ -1,0 +1,108 @@
+@import "../../assets/scss/variables.scss";
+
+
+.career-wrapper {
+  .header {
+    color: $color-blue;
+    .color2 {
+      color: $color-red;
+    }
+
+    width: 100vw;
+    max-width: 1250px;
+    margin: 200px auto 0 auto;
+
+    font-family: Gilroy Light;
+    font-size: 3rem;
+    line-height: 1.2em;
+
+    @media all and (max-width: 1366px) {
+      font-size: 2.5rem;
+      max-width: 900px;
+    }
+    @media all and (max-width: 966px) {
+      font-size: 2rem;
+      max-width: 590px;
+    }
+    @media all and (max-width: 596px) {
+      font-size: 2rem;
+      max-width: 300px;
+      margin: 80px auto 0 auto;
+    }
+  }
+
+  .career-carousel {
+    // width: 100vw;
+    max-width: 1366px;
+    margin: 40px auto;
+    .BrainhubCarousel__arrows span {
+      border-color: $color-blue !important;
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
+
+.career-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4rem 2rem;
+  width: 95%;
+  border: 5px solid $color-blue;
+  border-radius: 60px;
+  position: relative;
+  &::before {
+    content: " ";
+    border-radius: 50px;
+    position: absolute;
+    z-index: -1;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border: 5px solid $color-blue;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  .icon {
+    // display: block;
+    width: 50%;
+    // margin: 20px auto 0 auto;
+    align-self: center;
+  }
+
+  .career-header {
+    font-size: 3rem;
+    color: $color-blue;
+    // width: 80%;
+    // margin: 0 auto;
+    @media all and (max-width: 596px) {
+      font-size: 2.7rem;
+    }
+  }
+
+  .smoltxt {
+    font-size: 2.5rem;
+    @media all and (max-width: 596px) {
+      font-size: 2.3rem;
+    }
+  }
+
+  .career-text {
+    font-size: 1.5rem;
+    color: #919191;
+    // width: 80%;
+    // margin: 0 auto 30px auto;
+    letter-spacing: 2px;
+    .color2 {
+      color: $color-red;
+    }
+    @media all and (max-width: 596px) {
+      letter-spacing: 0;
+    }
+  }
+}

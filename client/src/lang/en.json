@@ -1,0 +1,192 @@
+{
+  "lang": {
+    "en": "EN",
+    "cs": "CS"
+  },
+
+  "nextLang": "cs",
+
+
+  "global": {
+    "contactUs": "Get in touch"
+  },
+
+  "menu": {
+    "priceConfig": "Price configurator",
+    "whatWeDo": "What we do",
+    "creativeProcess": "Our creative process",
+    "career": "Career",
+    "blog": "Blog",
+    "contact": "Get in touch"
+  },
+
+  "particlesPanel": {
+    "title": {
+      "line1": "Your no. 1 on all",
+      "line2": "things digital"
+    },
+    "subtitle": "We develop successful solutions for the digital future of our clients."
+  },
+
+  "twelveSegs": {
+    "title": {
+      "line1": "Embracing the digital age",
+      "line2": "one segment at a time"
+    },
+    "card": {
+      "webDevelopment": {
+        "title": "Web development",
+        "shortText": "Dobře vypadající a bezchybně fungující web je základem každé úspěšné moderní firmy.",
+        "longText": "I dobře fungující firma může ztrácet spousty potenciálních zákazníků tím, že její webové stránky dostatečně neodpovídají současným dynamickým trendům a potřebám lidí. <br/><br/>Oslovte své budoucí zákazníky již při online kontaktu zajímavým a přehledným webovým designem. Využijte prvotní dojem a dejte svému projektu požadovaný sexappeal, barvu, chuť, atmosféru, zkrátka cokoliv, co nadchne. <br/><br/>Nestačí disponovat pouze dobrým vzhledem, web musí být silný z venku (adekvátní web design) i zevnitř (vyladěný kód stránky).",
+        "longText2": "Responzivní web? To je samozřejmost! Každý známe ten pocit bezmoci, když si na telefonu otevřeme nějakou webovku a ona s námi nespolupracuje. Na takovou noční můru s námi můžete ihned zapomenout.<br/><br/><b>Vytvoříme pro Vás:</b><ul><li>Moderní WWW stránky, které osloví cílovou skupinu.</li><li>Dobře vypadající e-shop, který bude prodávat.</li><li>Grafický i kódový update Vašeho webu</li><li>Optimalizaci pro zlepšení viditelnosti Vaší stránky (SEO).</li><li>Spolehlivou webovou aplikaci na míru.</li><li>Nástavbu libovolné sekce webu.</li></ul> "
+      },
+      "designStudio": {
+        "title": "Design studio",
+        "shortText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nunc nulla, molestie vitae...",
+        "longText": "Lorem",
+        "longText2": "Lorem"
+      },
+      "socialMedia": {
+        "title": "Social networks",
+        "shortText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nunc nulla, molestie vitae...",
+        "longText": "Lorem",
+        "longText2": "Lorem"
+      },
+      "appDevelopment": {
+        "title": "App development",
+        "shortText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nunc nulla, molestie vitae...",
+        "longText": "Lorem",
+        "longText2": "Lorem"
+      },
+      "corporateIdentity": {
+        "title": "Corporate identity",
+        "shortText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nunc nulla, molestie vitae...",
+        "longText": "Lorem",
+        "longText2": "Lorem"
+      },
+      "offlineMarketing": {
+        "title": "Offline marketing",
+        "shortText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nunc nulla, molestie vitae...",
+        "longText": "Lorem",
+        "longText2": "Lorem"
+      },
+      "hrMarketing": {
+        "title": "HR marketing",
+        "shortText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nunc nulla, molestie vitae...",
+        "longText": "Lorem",
+        "longText2": "Lorem"
+      },
+      "onlineStaffTraining": {
+        "title": "Online staff training",
+        "shortText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nunc nulla, molestie vitae...",
+        "longText": "Lorem",
+        "longText2": "Lorem"
+      },
+      "analysis": {
+        "title": "Market analysis",
+        "shortText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nunc nulla, molestie vitae...",
+        "longText": "Lorem",
+        "longText2": "Lorem"
+      },
+      "animations": {
+        "title": "Animations",
+        "shortText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nunc nulla, molestie vitae...",
+        "longText": "Lorem",
+        "longText2": "Lorem"
+      },
+      "photo": {
+        "title": "Photo / video",
+        "shortText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nunc nulla, molestie vitae...",
+        "longText": "Lorem",
+        "longText2": "Lorem"
+      },
+      "cloud": {
+        "title": "Cloud solutions",
+        "shortText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nunc nulla, molestie vitae...",
+        "longText": "Lorem",
+        "longText2": "Lorem"
+      }
+    }
+  },
+
+  "howPanel": {
+    "title": {
+      "line1": "Our creative",
+      "line2": "process"
+    },
+    "step1" : {
+      "title": "First steps",
+      "subtext": "The first step must be taken by You. You must have at least a rough idea of what you want and why you want it. Once you've thought this through, get in touch so we can arrange an appointment."
+    },
+    "step2" : {
+      "title": "Brainstorming",
+      "subtext": "We'll meet up and discuss how we should go about making your project to ensure we work efficiently and accurately. We'll work your ideas through current market needs and develop an optimal design. You always have the final world, of course."
+    },
+    "step3" : {
+      "title": "Execution",
+      "subtext": "Once You approve our finalized design, we'll give it to our people, who'll make sure its execution is as proper and swift as possible. Nothing gets rushed - every one of our projects is polished to perfection."
+    },
+    "step4" : {
+      "title": "Delivery",
+      "subtext": "The big moment - You'll receive exactly what You ordered from us. A happy customer is the greatest motivation for the making of future projects."
+    },
+    "step+" : {
+      "title": "Service / update",
+      "subtext": "Project delivery isn't the end of our cooperation - we'll stay in touch if you ever need us for any reason. Squash a bug? Add a feature? Let us know whatever is on your mind."
+    }
+  },
+
+  "priceConfig": {
+    "title": "Project configurator",
+    "subtitle1": "Services selection",
+    "subtitle2": "Project size",
+    "required": "Required",
+    "badEmail": "Invalid email address",
+    "estimate": "Your estimate",
+    "yourEmail": "Your email",
+    "contactMe": "Contact me",
+    "msgSent": "Message has been sent successfully :-)",
+    "sliderText": {
+      "0": {
+        "title": "Let's go low-cost",
+        "subtext": "We get it, you're a small company or an individual with limited budget. Everyone must start somewhere and we've got your back."
+      },
+      "25": {
+        "title": "More for less",
+        "subtext": "You've got a very realistic budget, we have a project for you that you're going to be proud of."
+      },
+      "50": {
+        "title": "More than standard",
+        "subtext": "With this capital, we can give you a striking project for a striking price (in a good way)."
+      },
+      "75": {
+        "title": "Money isn't a problem",
+        "subtext": "Evidently, you're in the big leagues where complex yet robust solutions matter most. This is where we excel."
+      },
+      "100": {
+        "title": "I'm in Forbes 400",
+        "subtext": "We're talking about a world-class project here. We'll do everything to make sure you get only the best. Also, tell Elon we said hi!"
+      }
+    }
+  },
+
+  "career": {
+    "title": {
+      "line1": "Jumpstart your",
+      "line2": "personal development"
+    }
+  },
+
+  "contactForm": {
+    "title": {
+      "line1": "Contact",
+      "line2": "form"
+    },
+    "subtitle1": "Which services are you interested in?",
+    "subtitle2": "Anything else?",
+    "name": "Name",
+    "phone": "Phone",
+    "email": "E-mail",
+    "submit": "Send"
+  }
+}

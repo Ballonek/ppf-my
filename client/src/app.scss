@@ -1,0 +1,71 @@
+
+@import './assets/scss/variables.scss';
+
+.red {
+  color: $color-red;
+}
+.blue {
+  color: $color-blue;
+}
+b {
+  font-family: Gilroy;
+}
+ul {
+  padding-inline-start: 18px;
+  li {
+    margin-bottom: .4rem;
+  }
+}
+h1 {
+  letter-spacing: 2px;
+}
+h4 {
+  letter-spacing: 1px;
+}
+
+
+@font-face {
+  font-family: 'Gilroy';
+  src: local('Gilroy'), local('Gilroy'),
+       url('./fonts/gilroy.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Gilroy Light';
+  src: local('Gilroy Light'), local('Gilroy Light'),
+       url('./fonts/gilroy-light.otf') format('opentype');
+}
+
+*:focus {
+  outline:1px solid white !important;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #FFF;
+  font-family: Gilroy;
+  // background-image: url('/testbg.jpg');
+
+  scrollbar-color: #4AE4D8 #f1f1f1; 
+  scrollbar-width: 15px;
+  -webkit-overflow-scrolling: touch;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #4AE4D8; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #20D5C7; 
+}

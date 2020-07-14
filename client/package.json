@@ -1,0 +1,50 @@
+{
+  "name": "ppf-media-webapp",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": ".",
+  "dependencies": {
+    "@brainhubeu/react-carousel": "^1.19.17",
+    "bootstrap": "^4.5.0",
+    "emailjs-com": "^2.4.1",
+    "formik": "^2.1.4",
+    "node-sass": "^4.14.1",
+    "rc-slider": "^9.3.1",
+    "react": "^16.13.1",
+    "react-animate-height": "^2.0.21",
+    "react-animate-on-scroll": "^2.1.5",
+    "react-currency-format": "^1.0.0",
+    "react-dom": "^16.13.1",
+    "react-html-parser": "^2.0.2",
+    "react-motion": "^0.5.2",
+    "react-multi-lang": "^2.1.1",
+    "react-particles-js": "^3.2.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.1",
+    "reactstrap": "^8.5.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "url-loader": "^4.1.0"
+  }
+}
