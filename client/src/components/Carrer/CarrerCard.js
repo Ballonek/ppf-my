@@ -20,11 +20,7 @@ const CarrerCard = ({
 
   return (
     <div className="career-card" onClick={toggle}>
-      <img
-        className="icon"
-        alt="Career icon"
-        src={"/career/" + icon + ".svg"}
-      ></img>
+      <img className="icon" alt="Career icon" src={icon}></img>
       <div className="career-header">{ReactHtmlParser(title)}</div>
       <div className="career-text">
         {ReactHtmlParser(line1)}
