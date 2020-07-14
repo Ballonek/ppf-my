@@ -6,7 +6,7 @@ const SegmentCardItem = ({ icon, title, longText, shortText }) => {
       <div className="tw-segment-card-heading">
         <div className='tw-segment-card-heading-text'>{title}</div>
         <div className='tw-segment-card-heading-img'>
-          <img src={"/segs/" + icon + ".svg"} alt={title + " icon"} />
+          <img src={icon} alt={title + " icon"} />
         </div>
       </div>
       <div className='tw-segment-card-content'>

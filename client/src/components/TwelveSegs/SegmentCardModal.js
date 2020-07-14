@@ -20,11 +20,7 @@ const SegmentCardModal = ({
           <div className="modalRow-inner">
             <div xs className="displayCop">
               <span className="helper"></span>
-              <img
-                className="centerIcon"
-                src={"/segs/" + icon + ".svg"}
-                alt={title + " icon"}
-              />
+              <img className="centerIcon" src={icon} alt={title + " icon"} />
             </div>
             <div className="contentCop">
               <div className="title">{title}</div>
