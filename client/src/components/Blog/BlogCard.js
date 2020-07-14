@@ -19,7 +19,7 @@ const BlogCard = ({ blue, title, shortText, longText, image }) => {
       <div className="blog-img-wrapper">
         <img
           className="blog-img"
-          src={"/blog/" + image + ".jpg"}
+          src={image}
           alt={title + " image"}
         />
       </div>
@@ -47,7 +47,7 @@ const BlogCard = ({ blue, title, shortText, longText, image }) => {
                 >
                   <img
                     className="headerImg"
-                    src={"/blog/" + image + ".jpg"}
+                    src={image}
                     alt={title + " image"}
                   />
                 </div>
