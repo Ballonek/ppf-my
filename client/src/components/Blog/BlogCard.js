@@ -37,7 +37,7 @@ const BlogCard = ({ blue, title, shortText, longText, image }) => {
         >
           <div className="modalRowCareer">
             <div>
-              <div xs={12} className="noFuckingPadding">
+              <div className="noFuckingPadding">
                 <div
                   className={
                     blue
@@ -53,7 +53,7 @@ const BlogCard = ({ blue, title, shortText, longText, image }) => {
                 </div>
                 <div className="title">{title}</div>
               </div>
-              <div xs={12} className="panel1 justifyText">
+              <div className="panel1 justifyText">
                 {ReactHtmlParser(longText)}
               </div>
             </div>
