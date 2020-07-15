@@ -1,7 +1,7 @@
 import React, { useState } from "react"
-import ReactHtmlParser from 'react-html-parser'
-import { Modal } from 'reactstrap'
-import close from '../../assets/close.svg'
+import ReactHtmlParser from "react-html-parser"
+import { Modal } from "reactstrap"
+import { close } from "../../assets"
 
 const BlogCard = ({ blue, title, shortText, longText, image }) => {
   const [modalIsOpen, setModalIsOpen] = useState(false)
@@ -12,21 +12,15 @@ const BlogCard = ({ blue, title, shortText, longText, image }) => {
 
   return (
     <div
-      className={
-        "blog-card" + (blue ? " blog-card-blue" : " blog-card-red")
-      }
+      className={"blog-card" + (blue ? " blog-card-blue" : " blog-card-red")}
       onClick={toggle}
     >
       <div className="blog-img-wrapper">
-        <img
-          className="blog-img"
-          src={image}
-          alt={title + " image"}
-        />
+        <img className="blog-img" src={image} alt={title + " image"} />
       </div>
       <div className="blog-header">{ReactHtmlParser(title)}</div>
       <div className="blog-text">{ReactHtmlParser(shortText)}</div>
-      <div className='modal-container' onClick={(e) => e.stopPropagation()}>
+      <div className="modal-container" onClick={(e) => e.stopPropagation()}>
         <Modal
           isOpen={modalIsOpen}
           onRequestClose={toggle}
@@ -41,9 +35,7 @@ const BlogCard = ({ blue, title, shortText, longText, image }) => {
               <div className="noFuckingPadding">
                 <div
                   className={
-                    blue
-                      ? "headerImgWrapper"
-                      : "headerImgWrapperOrange"
+                    blue ? "headerImgWrapper" : "headerImgWrapperOrange"
                   }
                 >
                   <img

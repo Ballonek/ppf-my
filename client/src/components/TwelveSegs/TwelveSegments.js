@@ -69,12 +69,12 @@ const TwelveSegments = ({ t }) => {
           <Carousel>
             {segments.map((segment) => (
               <SegmentCard
-                // key={segment.name}
-                // title={t(`twelveSegs.card.${segment.name}.title`)}
-                // icon={segment.icon}
-                // shortText={t(`twelveSegs.card.${segment.name}.shortText`)}
-                // longText={t(`twelveSegs.card.${segment.name}.longText`)}
-                // longText2={t(`twelveSegs.card.${segment.name}.longText2`)}
+                key={segment.name}
+                title={t(`twelveSegs.card.${segment.name}.title`)}
+                icon={segment.icon}
+                shortText={t(`twelveSegs.card.${segment.name}.shortText`)}
+                longText={t(`twelveSegs.card.${segment.name}.longText`)}
+                longText2={t(`twelveSegs.card.${segment.name}.longText2`)}
               />
             ))}
           </Carousel>

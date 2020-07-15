@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import ReactHtmlParser from "react-html-parser"
 import { Modal } from "reactstrap"
-import close from '../../assets/close.svg'
+import {close} from '../../assets'
 
 
 const CarrerCard = ({

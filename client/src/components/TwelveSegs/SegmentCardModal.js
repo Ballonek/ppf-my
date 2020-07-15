@@ -3,7 +3,7 @@ import { withTranslation } from "react-multi-lang"
 import ReactHtmlParser from "react-html-parser"
 import "../../custom.scss"
 import { Modal, Container } from "reactstrap"
-import close from "../../assets/close.svg"
+import {close} from "../../assets"
 
 const SegmentCardModal = ({
   icon,
