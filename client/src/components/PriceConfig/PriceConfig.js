@@ -1,17 +1,19 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 // import { animateScroll as scroll } from 'react-scroll'
 import { withTranslation } from "react-multi-lang"
 import { Formik, Field } from "formik"
 import Slider from "rc-slider/lib/Slider"
 import "rc-slider/assets/index.css"
 import emailjs from "emailjs-com"
-// import Modal from "react-modal"
+import { Modal, Container } from "reactstrap"
 import CurrencyFormat from "react-currency-format"
 import AnimateHeight from "react-animate-height"
 // import { Element } from "react-scroll"
 import { Checkbox } from "../"
-import './style.scss'
-import { Container } from "reactstrap"
+import { handle, track } from "../../assets/priceconf"
+import { plusko_1 } from "../../assets/segs"
+
+import "./style.scss"
 
 const segments = [
   { name: "webDevelopment", price: 40000, value: "webDevelopment" },
@@ -34,6 +36,14 @@ const PriceConfig = ({ t }) => {
   const [priceBase, setPriceBase] = useState(0)
   const [sliderIsOpen, setSliderIsOpen] = useState(false)
   const [priceMultiplier, setPriceMultiper] = useState(1)
+  const [matches, setMatches] = useState({
+    matches: window.matchMedia("(max-width: 1200px)").matches,
+  })
+
+  useEffect(() => {
+    const handler = (e) => setMatches({ matches: e.matches })
+    window.matchMedia("(max-width: 1200px)").addListener(handler)
+  }, [matches])
 
   const handleSliderOpen = () => {
     setSliderIsOpen(!sliderIsOpen)
@@ -118,115 +128,131 @@ const PriceConfig = ({ t }) => {
         handleSubmit,
         isSubmitting,
       }) => (
-        <form onSubmit={handleSubmit}>
-          <Container className="configurator">
-            <div className="header-text">{t("priceConfig.title")}</div>
-            <div className="configurator-wrapper-inner">
-              <div className="header">{t("priceConfig.subtitle1")}</div>
-              <div className="configurator-wrapper-inner-flex contact-wrapper-upperonly">
-                {segments.map((segment) => (
-                  <Checkbox
-                    key={segment.name}
-                    name="services"
-                    value={segment.value}
-                    title={t(`twelveSegs.card.${segment.name}.title`)}
-                    className="checkboxHack"
-                  />
-                ))}
-              </div>{
-              // <AnimateHeight duration={500} height={sliderIsOpen ? "auto" : 0}>
-              //   <div className="configurator-wrapper-inner-flex">
-              //   </div>
-              // </AnimateHeight>
-              }<button
-                className={
-                  "windows-95-destruction" + (sliderIsOpen ? " expanded" : "")
-                }
-                onClick={handleSliderOpen}
-              >
-                <img src="segs/plusko_1.svg" alt="Expand section"></img>
-              </button>
+        <Container>
+          <form onSubmit={handleSubmit}>
+            <div className="configurator">
+              <div className="header-text">{t("priceConfig.title")}</div>
+              <div className="configurator-wrapper-inner">
+                <div className="header">{t("priceConfig.subtitle1")}</div>
+                <div className="configurator-wrapper-inner-flex contact-wrapper-upperonly">
+                  {segments.map((segment, idx) => {
+                    if (matches.matches && idx > 3) return
+                    else
+                      return (
+                        <Checkbox
+                          key={segment.name}
+                          name="services"
+                          value={segment.value}
+                          title={t(`twelveSegs.card.${segment.name}.title`)}
+                          className="checkboxHack"
+                        />
+                      )
+                  })}
+                </div>
+                <AnimateHeight
+                  duration={500}
+                  height={sliderIsOpen ? "auto" : 0}
+                >
+                  <div className="configurator-wrapper-inner-flex">
+                    {segments.map((segment, idx) => {
+                      if (idx > 3) {
+                        return (
+                          <Checkbox
+                            key={segment.name}
+                            name="services"
+                            value={segment.value}
+                            title={t(`twelveSegs.card.${segment.name}.title`)}
+                            className="checkboxHack"
+                          />
+                        )
+                      }
+                    })}
+                  </div>
+                </AnimateHeight>
+                <button
+                  className={
+                    "windows-95-destruction" + (sliderIsOpen ? " expanded" : "")
+                  }
+                  onClick={handleSliderOpen}
+                >
+                  <img src={plusko_1} alt="Expand section" />
+                </button>
 
-              <div className="header header2">{t("priceConfig.subtitle2")}</div>
-              <Slider
-                step="25"
-                dots={true}
-                onChange={handleSliderChange}
-                handleStyle={{
-                  content: "url(priceconf/handle.svg)",
-                  width: "70px",
-                  height: "70px",
-                  border: "none",
-                  top: "-175%",
-                }}
-                trackStyle={{ backgroundColor: "#FF6427"}}
-                railStyle={{ backgroundColor: "#FF6427" }}
-                dotStyle={{ color: "#FFF" }}
-                marks={{ 0: "|", 25: "|", 50: "|", 75: "|", 100: "|" }}
-              />
-              <>
-                <p className="sliderTitle">
-                  {t("priceConfig.sliderText." + sliderValue + ".title")}
-                </p>
-                <p className="sliderText">
-                  {t("priceConfig.sliderText." + sliderValue + ".subtext")}
-                </p>
-              </>
-              <div className="priceTag-wrapper">
-                <div className="priceTag-header">
-                  {t("priceConfig.estimate")}
+                <div className="header header2">
+                  {t("priceConfig.subtitle2")}
                 </div>
-                <div className="priceTag">
-                  <CurrencyFormat
-                    value={priceBase * priceMultiplier}
-                    displayType={"text"}
-                    thousandSeparator={" "}
-                    suffix={" CZK"}
-                  />
-                </div>
-              </div>
-              <div className="priceContact-wrapper">
-                <div className="priceContact-email-wrapper">
-                  <input
-                    type="email"
-                    name="email"
-                    className="priceContact-email"
-                    onChange={handleChange}
-                    onBlur={handleBlur}
-                    value={values.email}
-                    placeholder={t("priceConfig.yourEmail")}
-                  />
-                  <div className="emailErrors">
-                    {errors.email && touched.email && errors.email}
+                <Slider
+                  step="25"
+                  dots={true}
+                  onChange={handleSliderChange}
+                  handleStyle={{
+                    content: `url(${handle})`,
+                    width: "70px",
+                    height: "70px",
+                    border: "none",
+                    top: "-175%",
+                  }}
+                  trackStyle={{ backgroundColor: "#FF6427" }}
+                  railStyle={{ backgroundColor: "#FF6427" }}
+                  dotStyle={{ color: "#FFF" }}
+                  marks={{ 0: "|", 25: "|", 50: "|", 75: "|", 100: "|" }}
+                />
+                <>
+                  <p className="sliderTitle">
+                    {t("priceConfig.sliderText." + sliderValue + ".title")}
+                  </p>
+                  <p className="sliderText">
+                    {t("priceConfig.sliderText." + sliderValue + ".subtext")}
+                  </p>
+                </>
+                <div className="priceTag-wrapper">
+                  <div className="priceTag-header">
+                    {t("priceConfig.estimate")}
+                  </div>
+                  <div className="priceTag">
+                    <CurrencyFormat
+                      value={priceBase * priceMultiplier}
+                      displayType={"text"}
+                      thousandSeparator={" "}
+                      suffix={" CZK"}
+                    />
                   </div>
                 </div>
-                <button
-                  type="submit"
-                  disabled={isSubmitting}
-                  className="priceContact-submit"
-                >
-                  {t("priceConfig.contactMe")}
-                </button>
-                <div onClick={(e) => e.stopPropagation()}>{
-                  // <Modal
-                  //   isOpen={modalIsOpen}
-                  //   onRequestClose={closeModal}
-                  //   shouldCloseOnOverlayClick={true}
-                  //   shouldCloseOnEsc={true}
-                  //   ariaHideApp={false}
-                  //   className="priceConfigModal"
-                  //   overlayClassName="priceConfigModalOverlay"
-                  // >
-                  //   <p>{t("priceConfig.msgSent")}</p>
-                  //   <p>
-                  //     <button onClick={closeModal}>OK</button>
-                  //   </p>
-                  // </Modal>
-                }</div>
+                <div className="priceContact-wrapper">
+                  <div className="priceContact-email-wrapper">
+                    <input
+                      type="email"
+                      name="email"
+                      className="priceContact-email"
+                      onChange={handleChange}
+                      onBlur={handleBlur}
+                      value={values.email}
+                      placeholder={t("priceConfig.yourEmail")}
+                    />
+                    <div className="emailErrors">
+                      {errors.email && touched.email && errors.email}
+                    </div>
+                  </div>
+                  <button
+                    type="submit"
+                    disabled={isSubmitting}
+                    className="priceContact-submit"
+                  >
+                    {t("priceConfig.contactMe")}
+                  </button>
+                  <div onClick={(e) => e.stopPropagation()}>
+                    <Modal isOpen={modalIsOpen} className="priceConfigModal">
+                      <p>{t("priceConfig.msgSent")}</p>
+                      <p>
+                        <button onClick={closeModal}>OK</button>
+                      </p>
+                    </Modal>
+                  </div>
+                </div>
               </div>
             </div>
-          </Container>
-        </form>
+          </form>
+        </Container>
       )}
     </Formik>
   )

@@ -1,29 +1,34 @@
-import React from "react";
-import { withTranslation } from "react-multi-lang";
-// import "@brainhubeu/react-carousel/lib/style.css";
-// import { scroller as scroll } from 'react-scroll'
+import React from "react"
+import { withTranslation } from "react-multi-lang"
+import "@brainhubeu/react-carousel/lib/style.css"
+// import { scroller as scroll } from "react-scroll"
+import './style.scss'
+import mail from '../../assets/mail.svg'
+
 
 class Footer extends React.Component {
   constructor(props) {
-    super(props);
-    const { t } = this.props;
+    super(props)
+    const { t } = this.props
     this.handleOpen = () => {
-      this.setState((state) => ({ open: true }));
-    };
+      this.setState((state) => ({ open: true }))
+    }
     this.state = {
       open: false,
-    };
+    }
   }
 
   render() {
-    const { t } = this.props;
+    const { t } = this.props
     return (
       <div className="footer">
-        <div className="bluePanel"> 
+        <div className="bluePanel">
           <h1>Kontakt</h1>
           <p className="leftBorder">
-            <img className="mailIcon" src="/mail.svg" alt="Email icon"></img>
-            <a href="mailto:info@ppfmedia.cz" className="mailLink">info@ppfmedia.cz</a>
+            <img className="mailIcon" src={mail} alt="Email icon"></img>
+            <a href="mailto:info@ppfmedia.cz" className="mailLink">
+              info@ppfmedia.cz
+            </a>
           </p>
           <h4>NEJNOVĚJŠÍ PŘÍSPĚVKY</h4>
           <div className="leftBorder2">
@@ -80,8 +85,8 @@ class Footer extends React.Component {
           </div>
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default withTranslation(Footer);
+export default withTranslation(Footer)

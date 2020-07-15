@@ -1,0 +1,140 @@
+@import "../../assets/scss/variables.scss";
+
+
+.contactForm-wrapper {
+//   width: 100vw;
+//   max-width: 1300px;
+  margin-top: 200px;
+  padding: 10px;
+
+  -webkit-box-shadow: 0px 1px 22px -2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 1px 22px -2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 22px -2px rgba(0, 0, 0, 0.2);
+
+  @media all and (max-width: 1366px) {
+    // max-width: 900px;
+  }
+  @media all and (max-width: 966px) {
+    // max-width: 590px;
+  }
+  @media all and (max-width: 596px) {
+    // max-width: 100vw;
+  }
+
+  .header-text {
+    width: fit-content;
+    margin: 60px auto 30px 5rem;
+
+    color: $color-blue;
+    font-family: Gilroy;
+    font-size: 7rem;
+    line-height: 1.1em;
+
+    @media all and (max-width: 1366px) {
+      font-size: 6rem;
+    }
+    @media all and (max-width: 966px) {
+      font-size: 4rem;
+    }
+    @media all and (max-width: 596px) {
+      font-size: 3rem;
+      margin: 60px auto 30px auto;
+    }
+  }
+
+  .contactForm-email {
+    font-size: 1.7rem;
+    font-family: Gilroy Light;
+    color: $color-blue;
+    border-radius: 20px;
+    border: none;
+    padding: 1rem 1.5rem;
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    max-width: 85vw;
+    -webkit-appearance: none;
+    -webkit-box-shadow: 0 3px 20px -8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 3px 20px -8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 3px 20px -8px rgba(0, 0, 0, 0.3);
+    @media all and (min-width: 1368px) {
+      margin-right: 7.2rem;
+      margin-top: 0.7rem;
+    }
+    @media all and (min-width: 968px) and (max-width: 1366px) {
+      width: 600px;
+    }
+  }
+
+  .email-title {
+    color: $color-red;
+    font-size: 1.7rem;
+  }
+
+  .email-wrapper {
+    @media all and (min-width: 966px) {
+      margin-top: 4rem;
+    }
+  }
+
+  .header {
+    font-size: 3rem;
+    color: $color-red;
+    font-family: Gilroy;
+    text-align: left;
+    margin: -1rem 0 1.5rem 5rem;
+    line-height: 1.2em;
+    @media all and (max-width: 1366px) {
+      margin: 5rem 0 1.5rem 0;
+      font-size: 2.5rem;
+      text-align: center;
+    }
+  }
+
+  .header666 {
+    font-size: 3rem;
+    color: $color-red;
+    font-family: Gilroy;
+    text-align: left;
+    margin: 4rem 0 1.5rem 5rem;
+    @media all and (max-width: 1366px) {
+      margin: 3rem 0 1.5rem 0;
+      font-size: 2.5rem;
+      text-align: center;
+    }
+  }
+
+  .contactForm-text {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+
+    font-size: 1.5rem;
+    font-family: Gilroy Light;
+    color: #000;
+    border-radius: 35px;
+    border: none;
+    padding: 1rem 1.5rem;
+    margin: 0 auto;
+    -webkit-appearance: none;
+    -webkit-box-shadow: 0 3px 20px -8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 3px 20px -8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 3px 20px -8px rgba(0, 0, 0, 0.3);
+    @media all and (min-width: 966px) {
+      margin-right: 2rem;
+      margin-top: 0.7rem;
+    }
+  }
+
+  .configurator-wrapper-inner-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 85%;
+    margin: 0 auto;
+
+    @media all and (max-width: 596px) {
+      width: 100%;
+    }
+  }
+}

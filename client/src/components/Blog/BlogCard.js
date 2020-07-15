@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import ReactHtmlParser from 'react-html-parser'
-import {Modal} from 'reactstrap'
+import { Modal } from 'reactstrap'
+import close from '../../assets/close.svg'
 
 const BlogCard = ({ blue, title, shortText, longText, image }) => {
   const [modalIsOpen, setModalIsOpen] = useState(false)
@@ -59,7 +60,7 @@ const BlogCard = ({ blue, title, shortText, longText, image }) => {
             </div>
           </div>
           <button className="segmentModalClose" onClick={toggle}>
-            <img src="/close.svg" alt="Close button" />
+            <img src={close} alt="Close button" />
           </button>
         </Modal>
       </div>

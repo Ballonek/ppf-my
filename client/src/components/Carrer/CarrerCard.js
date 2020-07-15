@@ -1,6 +1,8 @@
 import React, { useState } from "react"
 import ReactHtmlParser from "react-html-parser"
 import { Modal } from "reactstrap"
+import close from '../../assets/close.svg'
+
 
 const CarrerCard = ({
   icon,
@@ -32,12 +34,7 @@ const CarrerCard = ({
       <div onClick={(e) => e.stopPropagation()}>
         <Modal
           isOpen={modalIsOpen}
-          onRequestClose={toggle}
-          shouldCloseOnOverlayClick={true}
-          shouldCloseOnEsc={true}
-          ariaHideApp={false}
           className="careerModal"
-          overlayClassName="segmentModalOverlay"
         >
           <div className="modalRowCareer">
             <div className="icon-wrapper">
@@ -53,7 +50,7 @@ const CarrerCard = ({
             <div className="panel3 justifyText">{ReactHtmlParser(long3)}</div>
           </div>
           <button className="segmentModalClose" onClick={toggle}>
-            <img src="/close.svg" alt="Close button" />
+            <img src={close} alt="Close button" />
           </button>
         </Modal>
       </div>

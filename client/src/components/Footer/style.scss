@@ -1,0 +1,176 @@
+@import "../../assets/scss/variables.scss";
+
+.footer {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  align-items: flex-end;
+
+  .break {
+    @media all and (max-width: 1366px) {
+      flex-basis: 100%;
+      height: 0;
+    }
+  }
+  .orangePanel {
+    background-color: $color-red;
+    padding: 2.5rem 4.5rem 3rem 4.5rem;
+    color: #fff;
+    letter-spacing: 0.1em;
+
+    width: 550px;
+
+    margin-left: 3rem;
+    margin-top: 350px;
+
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    .orangeLink {
+      color: #fff !important;
+      margin: 0 0.5rem;
+    }
+    @media all and (max-width: 596px) {
+      .orangeLink {
+        flex-basis: 30%;
+      }
+    }
+    @media all and (max-width: 396px) {
+      .orangeLink {
+        flex-basis: 100%;
+        text-align: right;
+        margin: 0rem;
+      }
+    }
+
+    .tinyText {
+      width: 100%;
+      font-size: 0.6rem;
+      font-family: Gilroy Light;
+      text-align: right;
+      margin-top: 0.3rem;
+      @media all and (max-width: 1366px) {
+        margin-top: 1.3rem;
+      }
+      .orangeLink {
+        margin: 0;
+      }
+    }
+
+    @media all and (max-width: 1366px) {
+      margin-top: 2rem;
+      margin-left: 0;
+      margin-right: auto;
+      max-width: 90vw;
+      border-top-left-radius: 0;
+      padding: 2.5rem 3rem 1.5rem 3rem;
+      .cookieDesktop {
+        width: 100%;
+        height: 0%;
+        display: block;
+        opacity: 0;
+      }
+    }
+  }
+  .bluePanel {
+    position: relative;
+    background-color: $color-blue;
+    padding: 5rem 2rem 1rem 2rem;
+    color: #fff;
+    letter-spacing: 0.1em;
+
+    width: 600px;
+    margin: 0 auto;
+    border-top-right-radius: 70px;
+
+    .leftBorder {
+      border-left: 3px solid #fff;
+      padding: 1rem 6rem;
+      padding-left: 1.1rem;
+      font-size: 1.2rem;
+      margin-left: 1rem;
+      margin-top: 1.5rem;
+      margin-bottom: 2rem;
+      font-family: Gilroy Light;
+      letter-spacing: 2px;
+    }
+
+    .leftBorder2 {
+      font-family: Gilroy Light;
+      border-left: 3px solid #fff;
+      padding: 1rem 6rem;
+      padding-left: 1.1rem;
+      font-size: 1rem;
+      margin-left: 1rem;
+      margin-top: 1.5rem;
+      margin-bottom: 2rem;
+      line-height: 1.3em;
+      letter-spacing: 1px;
+      button {
+        margin-top: 0.2rem;
+        margin-bottom: 0.2rem;
+      }
+    }
+
+    .curtain {
+      position: absolute;
+      top: 0;
+      left: -50vw;
+      width: 50vw;
+      height: 100%;
+      background-color: $color-blue;
+      z-index: -1;
+      @media all and (max-width: 1366px) {
+        left: 50%;
+      }
+    }
+    @media all and (max-width: 1366px) {
+      width: 90vw;
+      max-width: 600px;
+      padding-left: 4rem;
+      border-top-left-radius: 70px;
+      border-top-right-radius: 0;
+      border-bottom-left-radius: 70px;
+      margin-left: auto;
+      margin-right: 0;
+    }
+
+    @media all and (max-width: 596px) {
+      width: 95vw;
+      padding: 5rem 0.5rem 1rem 2rem;
+      .leftBorder {
+        padding: 1rem 1rem;
+        margin-left: 0;
+        font-size: 0.95rem;
+      }
+
+      .leftBorder2 {
+        padding: 1rem 1rem;
+        margin-left: 0;
+        font-size: 0.95rem;
+      }
+    }
+  }
+}
+
+.footerText {
+  font-size: 3rem;
+  color: $color-blue;
+  margin-top: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  @media all and (max-width: 596px) {
+    font-size: 2rem;
+    margin-top: 150px;
+  }
+}
+.footerTextItem {
+  width: 90vw;
+  text-align: center;
+}

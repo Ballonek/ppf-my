@@ -93,7 +93,7 @@
     display: none;
   }
   @media all and (max-width: 666px) {
-    display: none;
+    // display: none;
   }
   -webkit-transition: $button-fade-time ease-in-out;
   -moz-transition: $button-fade-time ease-in-out;
@@ -118,7 +118,7 @@
       width: 3.5rem;
     }
   }
-  @media all and (min-width: 996px) {
+  @media all and (min-width: 1200px) {
     display: none;
   }
   -webkit-transition: $button-fade-time ease-in-out;
@@ -267,9 +267,12 @@
   padding: 0.7rem 1.2rem;
   margin: 0 auto;
   display: block;
+  width: 100%;
   @media all and (max-width: 566px) {
     font-size: 1.6rem;
     width: 100%;
+  }
+  @media screen and (max-width: 991) {
   }
   &::placeholder {
     text-align: center;
@@ -324,5 +327,41 @@
   margin-top: 0.5rem;
   @media all and (min-width: 966px) {
     margin-right: 4rem;
+  }
+}
+
+.rc-slider {
+  width: 70% !important;
+  margin: 0 auto;
+  @media all and (max-width: 596px) {
+    width: 95% !important;
+  }
+}
+
+.rc-slider-mark-text {
+  content: url("../../assets/priceconf/track.svg");
+  height: 20px;
+  transform: translate(-50%, -200%) !important;
+  z-index: -1;
+}
+
+.rc-slider-dot {
+  display: none;
+}
+
+.rc-slider-handle {
+  border-radius: 0 !important;
+  width: 45px !important;
+  object-fit: cover;
+  &:active {
+    outline: none !important;
+  }
+}
+
+.rc-slider-handle-click-focused {
+  &:focus {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
   }
 }

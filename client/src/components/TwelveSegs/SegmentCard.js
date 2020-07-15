@@ -2,7 +2,6 @@ import React, { useState } from "react"
 import { withTranslation } from "react-multi-lang"
 import "../../custom.scss"
 import SegmentCardItem from "./SegmentCardItem"
-import { Modal, ModalHeader, ModalBody, ModalFooter, Button } from "reactstrap"
 import SegmentCardModal from "./SegmentCardModal"
 
 const SegmentCard = ({

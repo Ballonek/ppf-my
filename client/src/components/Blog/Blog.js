@@ -24,10 +24,13 @@ const Blog = ({ t }) => {
         infinite
         arrows
         className="blog-carousel"
-        slidesPerPage="3"
+        // slidesPerPage="3"
         autoPlay={4000}
         animationSpeed={1000}
         breakpoints={{
+          1366: {
+            slidesPerPage: 3
+          },
           1130: {
             slidesPerPage: 2,
           },
@@ -35,6 +38,7 @@ const Blog = ({ t }) => {
             slidesPerPage: 1,
           },
         }}
+        slidesPerPage={3}
       >
         {blogs.map((blog) => (
           <BlogCard

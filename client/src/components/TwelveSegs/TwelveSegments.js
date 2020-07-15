@@ -4,7 +4,8 @@ import { withTranslation, getLanguage } from "react-multi-lang"
 import SegmentCard from "./SegmentCard"
 import { Container } from "reactstrap"
 import "./style.scss"
-import SegmentCarousel from "./SegmentCarousel"
+import Carousel from "@brainhubeu/react-carousel"
+import "@brainhubeu/react-carousel/lib/style.css"
 import {
   analysis,
   anim,
@@ -20,10 +21,11 @@ import {
   training,
   web_dev,
 } from "../../assets/segs"
+import SegmentCardItem from "./SegmentCardItem"
 
 const segments = [
   { name: "webDevelopment", icon: web_dev },
-  { name: "designStudio", icon: graphics},
+  { name: "designStudio", icon: graphics },
   { name: "corporateIdentity", icon: corporate },
   { name: "hrMarketing", icon: hr },
   { name: "socialMedia", icon: social },
@@ -64,7 +66,18 @@ const TwelveSegments = ({ t }) => {
             />
           ))
         ) : (
-          <SegmentCarousel items={segments} />
+          <Carousel>
+            {segments.map((segment) => (
+              <SegmentCard
+                // key={segment.name}
+                // title={t(`twelveSegs.card.${segment.name}.title`)}
+                // icon={segment.icon}
+                // shortText={t(`twelveSegs.card.${segment.name}.shortText`)}
+                // longText={t(`twelveSegs.card.${segment.name}.longText`)}
+                // longText2={t(`twelveSegs.card.${segment.name}.longText2`)}
+              />
+            ))}
+          </Carousel>
         )}
       </div>
     </Container>

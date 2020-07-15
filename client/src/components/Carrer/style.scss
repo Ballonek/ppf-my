@@ -1,6 +1,5 @@
 @import "../../assets/scss/variables.scss";
 
-
 .career-wrapper {
   .header {
     color: $color-blue;
@@ -68,6 +67,10 @@
     cursor: pointer;
   }
 
+  @media screen and (max-width: 991px) {
+    padding: 2.5rem 1.5rem;
+  }
+
   .icon {
     // display: block;
     width: 50%;
@@ -81,7 +84,10 @@
     // width: 80%;
     // margin: 0 auto;
     @media all and (max-width: 596px) {
-      font-size: 2.7rem;
+      font-size: 2rem;
+    }
+    @media screen and (max-width: 991px) {
+      font-size: 2rem;
     }
   }
 
@@ -89,6 +95,9 @@
     font-size: 2.5rem;
     @media all and (max-width: 596px) {
       font-size: 2.3rem;
+    }
+    @media screen and (max-width: 991px) {
+      font-size: 2rem;
     }
   }
 
@@ -104,5 +113,33 @@
     @media all and (max-width: 596px) {
       letter-spacing: 0;
     }
+    @media screen and (max-width: 991px) {
+      font-size: 1.3rem;
+    }
+  }
+}
+
+.careerModal {
+  margin-top: 10%;
+  .modalRowCareer {
+    display: grid;
+    padding: 3rem 4rem;
+    row-gap: 4rem;
+    column-gap: 3rem;
+    grid-template-areas:
+      "icon slot1 slot2"
+      "icon slot3 slot3";
+  }
+  .icon-wrapper {
+    grid-area: icon;
+  }
+  .panel1 {
+    grid-area: slot1;
+  }
+  .panel2 {
+    grid-area: slot2;
+  }
+  .panel3 {
+    grid-area: slot3;
   }
 }

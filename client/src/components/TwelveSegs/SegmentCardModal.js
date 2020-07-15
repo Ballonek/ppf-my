@@ -3,6 +3,7 @@ import { withTranslation } from "react-multi-lang"
 import ReactHtmlParser from "react-html-parser"
 import "../../custom.scss"
 import { Modal, Container } from "reactstrap"
+import close from "../../assets/close.svg"
 
 const SegmentCardModal = ({
   icon,
@@ -26,16 +27,16 @@ const SegmentCardModal = ({
               <div className="title">{title}</div>
               <div className="subtitle">{shortText}</div>
               <div className="content">
-                <div>
-                  <div>{ReactHtmlParser(longText)}</div>
-                  <dirv className="par2">{ReactHtmlParser(longText2)}</dirv>
+                <div className="content-inner">
+                  <div className="par1">{ReactHtmlParser(longText)}</div>
+                  <div className="par2">{ReactHtmlParser(longText2)}</div>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <button className="segmentModalClose" onClick={toggle}>
-          <img src="/close.svg" alt="Close button" />
+          <img src={close} alt="Close button" />
         </button>
       </Modal>
     </div>
