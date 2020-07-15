@@ -54,31 +54,16 @@ const TwelveSegments = ({ t }) => {
       <div
         className={matches.matches ? "tw-wrapper-inner" : "tw-wrapper-carousel"}
       >
-        {matches.matches ? (
-          segments.map((segment) => (
-            <SegmentCard
-              key={segment.name}
-              title={t(`twelveSegs.card.${segment.name}.title`)}
-              icon={segment.icon}
-              shortText={t(`twelveSegs.card.${segment.name}.shortText`)}
-              longText={t(`twelveSegs.card.${segment.name}.longText`)}
-              longText2={t(`twelveSegs.card.${segment.name}.longText2`)}
-            />
-          ))
-        ) : (
-          <Carousel>
-            {segments.map((segment) => (
-              <SegmentCard
-                key={segment.name}
-                title={t(`twelveSegs.card.${segment.name}.title`)}
-                icon={segment.icon}
-                shortText={t(`twelveSegs.card.${segment.name}.shortText`)}
-                longText={t(`twelveSegs.card.${segment.name}.longText`)}
-                longText2={t(`twelveSegs.card.${segment.name}.longText2`)}
-              />
-            ))}
-          </Carousel>
-        )}
+        {segments.map((segment) => (
+          <SegmentCard
+            key={segment.name}
+            title={t(`twelveSegs.card.${segment.name}.title`)}
+            icon={segment.icon}
+            shortText={t(`twelveSegs.card.${segment.name}.shortText`)}
+            longText={t(`twelveSegs.card.${segment.name}.longText`)}
+            longText2={t(`twelveSegs.card.${segment.name}.longText2`)}
+          />
+        ))}
       </div>
     </Container>
   )
