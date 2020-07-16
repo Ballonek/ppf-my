@@ -37,7 +37,6 @@
       display: flex;
       flex-direction: column;
       @media screen and (max-width: 480px) {
-
         padding: 1rem 0;
       }
 
@@ -49,7 +48,17 @@
           flex-shrink: 0;
           text-align: center;
           transition: all 350ms ease-in;
-          padding-left: 2.5rem;
+          padding-left: 5rem;
+          // padding-right: 4.5rem;
+
+          @media screen and (min-width: 1199px) {
+            padding-left: 4rem;
+            font-size: 7.5rem;
+          }
+          @media screen and (min-width: 999px) {
+            padding-left: 4rem;
+            font-size: 7.5rem;
+          }
           @media screen and (max-width: 991px) {
             padding-left: 0;
             font-size: 7rem;
@@ -62,7 +71,6 @@
           @media screen and (max-width: 480px) {
             font-size: 4rem;
           }
-
 
           &.number {
             opacity: 1;
@@ -93,7 +101,6 @@
           @media screen and (max-width: 480px) {
             width: 66%;
             margin-left: 0;
-        
           }
 
           &-content {
@@ -101,7 +108,6 @@
             @media screen and (max-width: 480px) {
               font-size: 1rem;
               font-weight: bold;
-          
             }
 
             &::before {

@@ -43,6 +43,10 @@
 }
 
 .particle-panel {
+  .container {
+    z-index: 5;
+    position: relative;
+  }
   .header-text {
     width: 100%;
     // max-width: 1280px;
