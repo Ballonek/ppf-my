@@ -1,7 +1,4 @@
 import React from "react"
-// import { Link } from "react-router-dom";
-import { Motion, spring } from "react-motion"
-// import { scroller as scroll } from "react-scroll"
 import { withTranslation } from "react-multi-lang"
 import MenuSocial from "./MenuSocial"
 

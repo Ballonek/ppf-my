@@ -1,16 +1,14 @@
 import React, { useState, useEffect } from "react"
-// import { animateScroll as scroll } from 'react-scroll'
 import { withTranslation } from "react-multi-lang"
-import { Formik, Field } from "formik"
+import { Formik } from "formik"
 import Slider from "rc-slider/lib/Slider"
 import "rc-slider/assets/index.css"
 import emailjs from "emailjs-com"
 import { Modal, Container } from "reactstrap"
 import CurrencyFormat from "react-currency-format"
 import AnimateHeight from "react-animate-height"
-// import { Element } from "react-scroll"
 import { Checkbox } from "../"
-import { handle, track } from "../../assets/priceconf"
+import { handle } from "../../assets/priceconf"
 import { plusko_1 } from "../../assets/segs"
 
 import "./style.scss"
@@ -49,12 +47,8 @@ const PriceConfig = ({ t }) => {
     setSliderIsOpen(!sliderIsOpen)
   }
 
-  const closeModal = () => {
-    setModalIsOpen(false)
-  }
-
-  const openModal = () => {
-    setModalIsOpen(true)
+  const toggle = () => {
+    setModalIsOpen(!modalIsOpen)
   }
 
   const handleSliderChange = (value) => {
@@ -74,8 +68,9 @@ const PriceConfig = ({ t }) => {
         let pbs = 0
         segments.map((segment) => {
           if (values.services.includes(segment.value)) {
-            pbs += segment.price
+            return (pbs += segment.price)
           }
+          return pbs
         })
         setPriceBase(pbs)
 
@@ -136,7 +131,7 @@ const PriceConfig = ({ t }) => {
                 <div className="header">{t("priceConfig.subtitle1")}</div>
                 <div className="configurator-wrapper-inner-flex contact-wrapper-upperonly">
                   {segments.map((segment, idx) => {
-                    if (matches.matches && idx > 3) return
+                    if (matches.matches && idx > 3) return false
                     else
                       return (
                         <Checkbox
@@ -165,7 +160,7 @@ const PriceConfig = ({ t }) => {
                             className="checkboxHack"
                           />
                         )
-                      }
+                      } else return false
                     })}
                   </div>
                 </AnimateHeight>
@@ -244,7 +239,7 @@ const PriceConfig = ({ t }) => {
                     <Modal isOpen={modalIsOpen} className="priceConfigModal">
                       <p>{t("priceConfig.msgSent")}</p>
                       <p>
-                        <button onClick={closeModal}>OK</button>
+                        <button onClick={toggle}>OK</button>
                       </p>
                     </Modal>
                   </div>

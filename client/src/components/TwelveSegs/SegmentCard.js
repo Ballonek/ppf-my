@@ -1,5 +1,4 @@
 import React, { useState } from "react"
-import { withTranslation } from "react-multi-lang"
 import "../../custom.scss"
 import SegmentCardItem from "./SegmentCardItem"
 import SegmentCardModal from "./SegmentCardModal"
@@ -41,4 +40,4 @@ const SegmentCard = ({
   )
 }
 
-export default withTranslation(SegmentCard)
+export default SegmentCard

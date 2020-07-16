@@ -1,9 +1,8 @@
-import React, { useState } from "react"
-import { withTranslation } from "react-multi-lang"
+import React from "react"
 import ReactHtmlParser from "react-html-parser"
 import "../../custom.scss"
-import { Modal, Container } from "reactstrap"
-import {close} from "../../assets"
+import { Modal } from "reactstrap"
+import { close } from "../../assets"
 
 const SegmentCardModal = ({
   icon,
@@ -15,7 +14,7 @@ const SegmentCardModal = ({
   toggle,
 }) => {
   return (
-    <div onClick={(e) => e.stopPropagation()}>
+    <div>
       <Modal isOpen={modalIsOpen} toggle={toggle} className="segmentModal">
         <div className="modalRow">
           <div className="modalRow-inner">

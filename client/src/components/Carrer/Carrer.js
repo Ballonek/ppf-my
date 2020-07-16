@@ -32,7 +32,7 @@ const Carrer = ({ t }) => {
           1130: {
             slidesPerPage: 2,
           },
-          756: {
+          767: {
             slidesPerPage: 1,
           },
         }}

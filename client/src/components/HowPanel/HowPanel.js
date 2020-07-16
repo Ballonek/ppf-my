@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import React from "react"
 import { withTranslation } from "react-multi-lang"
 import { Container } from "reactstrap"
 import "./style.scss"
@@ -7,7 +7,6 @@ import HowItem from "./HowItem"
 const steps = [1, 2, 3, 4, "+"]
 
 const HowPanel = ({ t }) => {
-
   return (
     <Container id="creativeProcess" className="how-wrapper">
       <p className="bigTextah">

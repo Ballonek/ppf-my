@@ -21,12 +21,12 @@ const Blog = ({ t }) => {
       <div className="header-text">{ReactHtmlParser(t("blog.title"))}</div>
       <div className="header">{ReactHtmlParser(t("blog.subtitle"))}</div>
       <Carousel
-        infinite
+        // infinite
         arrows
         className="blog-carousel"
-        // slidesPerPage="3"
-        autoPlay={4000}
-        animationSpeed={1000}
+        // // slidesPerPage="3"
+        // autoPlay={4000}
+        // animationSpeed={1000}
         breakpoints={{
           1366: {
             slidesPerPage: 3
@@ -34,7 +34,7 @@ const Blog = ({ t }) => {
           1130: {
             slidesPerPage: 2,
           },
-          756: {
+          767: {
             slidesPerPage: 1,
           },
         }}

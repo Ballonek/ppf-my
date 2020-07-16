@@ -1,11 +1,8 @@
 import React, { useState, useEffect } from "react"
-// import { animateScroll as scroll } from 'react-scroll'
 import { withTranslation } from "react-multi-lang"
-import { Formik, Field } from "formik"
+import { Formik } from "formik"
 import emailjs from "emailjs-com"
-// import Modal from "react-modal"
 import AnimateHeight from "react-animate-height"
-// import { Element } from "react-scroll"
 import { Checkbox } from "../"
 import { Container, Modal } from "reactstrap"
 import "./styles.scss"
@@ -42,11 +39,8 @@ const ContactForm = ({ t }) => {
     setSliderIsOpen(!sliderIsOpen)
   }
 
-  const closeModal = () => {
-    setModalIsOpen(false)
-  }
-  const openModal = () => {
-    setModalIsOpen(true)
+  const toggle = () => {
+    setModalIsOpen(!modalIsOpen)
   }
 
   return (
@@ -162,7 +156,7 @@ const ContactForm = ({ t }) => {
               <div className="header">{t("contactForm.subtitle1")}</div>
               <div className="configurator-wrapper-inner-flex contact-wrapper-upperonly">
                 {segments.map((segment, idx) => {
-                  if (matches.matches && idx > 3) return
+                  if (matches.matches && idx > 3) return false
                   else
                     return (
                       <Checkbox
@@ -188,7 +182,7 @@ const ContactForm = ({ t }) => {
                           className="checkboxHack2"
                         />
                       )
-                    }
+                    } else return false
                   })}
                 </div>
               </AnimateHeight>
@@ -224,7 +218,7 @@ const ContactForm = ({ t }) => {
                 <Modal isOpen={modalIsOpen} className="priceConfigModal">
                   <p>{t("priceConfig.msgSent")}</p>
                   <p>
-                    <button onClick={closeModal}>OK</button>
+                    <button onClick={toggle}>OK</button>
                   </p>
                 </Modal>
               </div>

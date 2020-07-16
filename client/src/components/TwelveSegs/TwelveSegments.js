@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react"
 import TwHeader from "./TwHeader"
-import { withTranslation, getLanguage } from "react-multi-lang"
+import { withTranslation } from "react-multi-lang"
 import SegmentCard from "./SegmentCard"
 import { Container } from "reactstrap"
 import "./style.scss"
@@ -16,12 +16,10 @@ import {
   hr,
   offline,
   photo,
-  plusko_1,
   social,
   training,
   web_dev,
 } from "../../assets/segs"
-import SegmentCardItem from "./SegmentCardItem"
 
 const segments = [
   { name: "webDevelopment", icon: web_dev },
@@ -40,30 +38,57 @@ const segments = [
 
 const TwelveSegments = ({ t }) => {
   const [matches, setMatches] = useState({
-    matches: window.matchMedia("(min-width: 665px)").matches,
+    matches: window.matchMedia("(min-width: 768px)").matches,
   })
 
   useEffect(() => {
     const handler = (e) => setMatches({ matches: e.matches })
-    window.matchMedia("(min-width: 665px)").addListener(handler)
+    window.matchMedia("(min-width: 768px)").addListener(handler)
   }, [matches])
 
+  console.log(matches.matches)
   return (
     <Container className="tw-wrapper" id="whatWeDo">
       <TwHeader />
       <div
         className={matches.matches ? "tw-wrapper-inner" : "tw-wrapper-carousel"}
       >
-        {segments.map((segment) => (
-          <SegmentCard
-            key={segment.name}
-            title={t(`twelveSegs.card.${segment.name}.title`)}
-            icon={segment.icon}
-            shortText={t(`twelveSegs.card.${segment.name}.shortText`)}
-            longText={t(`twelveSegs.card.${segment.name}.longText`)}
-            longText2={t(`twelveSegs.card.${segment.name}.longText2`)}
-          />
-        ))}
+        {matches.matches ? (
+          segments.map((segment) => {
+            return (
+              <SegmentCard
+                key={segment.name}
+                title={t(`twelveSegs.card.${segment.name}.title`)}
+                icon={segment.icon}
+                shortText={t(`twelveSegs.card.${segment.name}.shortText`)}
+                longText={t(`twelveSegs.card.${segment.name}.longText`)}
+                longText2={t(`twelveSegs.card.${segment.name}.longText2`)}
+              />
+            )
+          })
+        ) : (
+          <Carousel
+            // infinite
+            arrows
+            className="segment-carousel"
+            // slidesPerPage="3"
+            // autoPlay={4000}
+            // animationSpeed={1000}
+          >
+            {segments.map((segment) => {
+              return (
+                <SegmentCard
+                  key={segment.name}
+                  title={t(`twelveSegs.card.${segment.name}.title`)}
+                  icon={segment.icon}
+                  shortText={t(`twelveSegs.card.${segment.name}.shortText`)}
+                  longText={t(`twelveSegs.card.${segment.name}.longText`)}
+                  longText2={t(`twelveSegs.card.${segment.name}.longText2`)}
+                />
+              )
+            })}
+          </Carousel>
+        )}
       </div>
     </Container>
   )

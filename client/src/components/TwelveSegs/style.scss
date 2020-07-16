@@ -1,6 +1,5 @@
 @import "../../assets/scss/variables.scss";
 
-
 .tw-header {
   width: 700px;
   font-size: 3rem;
@@ -45,6 +44,16 @@
 
   transition: transform $button-fade-time-quick ease-in-out;
 
+  @media screen and (max-width: 767px) {
+    width: 90%;
+  }
+  @media screen and (max-width: 480px) {
+    padding: 1rem 0.5rem 0.2rem 0.5rem;
+    //   margin: 1rem;
+    color: $color-red;
+    font-size: 1.3rem;
+  }
+
   &-heading {
     display: flex;
     flex-direction: row;
@@ -59,6 +68,11 @@
         width: 100%;
       }
     }
+    @media screen and (max-width: 480px) {
+    
+        margin-bottom: 1rem;
+    }
+    
   }
   &-item {
   }

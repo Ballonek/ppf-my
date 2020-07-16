@@ -70,6 +70,9 @@
   @media screen and (max-width: 991px) {
     padding: 2.5rem 1.5rem;
   }
+  @media screen and (max-width: 767px) {
+    align-items: center;
+  }
 
   .icon {
     // display: block;
@@ -88,6 +91,9 @@
     }
     @media screen and (max-width: 991px) {
       font-size: 2rem;
+    }
+    @media screen and (max-width: 480px) {
+      font-size: 1.5rem;
     }
   }
 
@@ -115,6 +121,9 @@
     }
     @media screen and (max-width: 991px) {
       font-size: 1.3rem;
+    }
+    @media screen and (max-width:480px) {
+      font-size: 1rem;
     }
   }
 }

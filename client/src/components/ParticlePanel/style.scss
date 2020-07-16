@@ -6,14 +6,14 @@
   justify-content: center;
   width: 100%;
   height: calc(100vh);
-  min-height: 820px;
+  // min-height: 820px;
   background-color: $color-blue;
   padding-top: 3rem;
   @media all and (min-height: 768px) and (max-width: 1024px) {
-    max-height: 1000px;
+    // max-height: 1000px;
     height: calc(100vh);
     @media all and (max-height: 768px) {
-      max-height: 820px;
+      // max-height: 820px;
       height: calc(100vh);
     }
   }
@@ -28,7 +28,7 @@
 .particles-canvas {
   width: 100%;
   height: calc(100vh);
-  min-height: 820px;
+  min-height: 100vh;
   position: absolute;
   top: 0;
   left: 0;
@@ -46,7 +46,7 @@
   .header-text {
     width: 100%;
     // max-width: 1280px;
-    margin: 0 auto;
+    // margin: 0 auto;
 
     color: white;
     font-family: Gilroy;
@@ -56,25 +56,32 @@
 
     @media all and (max-width: 1366px) {
       font-size: 6rem;
-      max-width: 800px;
+      // max-width: 800px;
     }
     @media all and (max-height: 768px) {
       font-size: 5rem;
     }
     @media all and (max-width: 966px) {
-      font-size: 4rem;
-      max-width: 500px;
+      font-size: 3.5rem;
+      //  max-width: 500px;
+      width: 70%;
+      line-height: 4rem;
+
+
     }
-    @media all and (max-width: 596px) {
+    @media all and (max-width: 597px) {
+      margin-top: 2rem;
       font-size: 4rem;
-      width: 300px;
+      line-height: 4rem;
     }
     @media all and (max-width: 480px) {
-      font-size: 3.5rem;
+      font-size: 3rem;
+      letter-spacing: 0;
       width: 100%;
+      line-height: 3rem;
     }
     @media all and (max-height: 666px) {
-      margin: 20px auto 0 auto;
+      // margin: 20px auto 0 auto;
     }
   }
 
@@ -91,7 +98,7 @@
     line-height: 1.2em;
 
     @media all and (max-width: 1366px) {
-      width: 700px;
+      // width: 700px;
       // padding-right: 250px;
     }
     @media all and (max-height: 768px) {
@@ -99,16 +106,19 @@
     }
     @media all and (max-width: 966px) {
       font-size: 2rem;
-      max-width: 500px;
-      padding-right: 120px;
+      width: 65%;
+      // padding-right: 120px;
     }
-    @media all and (max-width: 596px) {
+    @media all and (max-width: 597px) {
       font-size: 1.5rem;
-      width: 300px;
+      width: 60%;
       padding-right: 0;
     }
     @media all and (max-height: 666px) {
-      margin: 20px auto 0 auto;
+      // margin: 20px auto 0 auto;
+    }
+    @media all and (max-height: 480px) {
+      
     }
   }
 }
@@ -118,6 +128,8 @@
   border-radius: 20px;
   border: 5px solid #fff;
   color: #fff;
+  position: relative;
+  z-index: 5;
 
   background-color: rgba(0, 0, 0, 0);
   transition: color $button-fade-time ease-in-out,
@@ -137,20 +149,20 @@
   max-width: 1280px;
   padding-right: 700px;
   @media all and (max-width: 1366px) {
-    max-width: 800px;
+    // max-width: 800px;
     padding-right: 250px;
   }
   @media all and (max-width: 966px) {
     font-size: 2rem;
-    max-width: 500px;
+    // max-width: 500px;
     padding-right: 120px;
   }
   @media all and (max-width: 596px) {
     font-size: 1.5rem;
-    width: 300px;
+    // width: 300px;
     padding-right: 0;
   }
   @media all and (max-height: 666px) {
-    margin: 20px auto 0 auto;
+    // margin: 20px auto 0 auto;
   }
 }
