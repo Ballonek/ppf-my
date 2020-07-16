@@ -1,5 +1,4 @@
-
-@import './assets/scss/variables.scss';
+@import "./assets/scss/variables.scss";
 
 .red {
   color: $color-red;
@@ -13,7 +12,7 @@ b {
 ul {
   padding-inline-start: 18px;
   li {
-    margin-bottom: .4rem;
+    margin-bottom: 0.4rem;
   }
 }
 h1 {
@@ -23,33 +22,34 @@ h4 {
   letter-spacing: 1px;
 }
 
-
 @font-face {
-  font-family: 'Gilroy';
-  src: local('Gilroy'), local('Gilroy'),
-       url('./fonts/gilroy.otf') format('opentype');
+  font-family: "Gilroy";
+  src: local("Gilroy"), local("Gilroy"),
+    url("./fonts/gilroy.otf") format("opentype");
 }
 @font-face {
-  font-family: 'Gilroy Light';
-  src: local('Gilroy Light'), local('Gilroy Light'),
-       url('./fonts/gilroy-light.otf') format('opentype');
+  font-family: "Gilroy Light";
+  src: local("Gilroy Light"), local("Gilroy Light"),
+    url("./fonts/gilroy-light.otf") format("opentype");
 }
 
 *:focus {
-  outline:1px solid white !important;
+  outline: 1px solid white !important;
 }
 
-html, body {
+html,
+body {
+  scroll-behavior: smooth;
   max-width: 100%;
   overflow-x: hidden;
 }
 
 body {
-  background-color: #FFF;
+  background-color: #fff;
   font-family: Gilroy;
   // background-image: url('/testbg.jpg');
 
-  scrollbar-color: #4AE4D8 #f1f1f1; 
+  scrollbar-color: #4ae4d8 #f1f1f1;
   scrollbar-width: 15px;
   -webkit-overflow-scrolling: touch;
 }
@@ -59,13 +59,13 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; 
+  background: #f1f1f1;
 }
- 
+
 ::-webkit-scrollbar-thumb {
-  background: #4AE4D8; 
+  background: #4ae4d8;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #20D5C7; 
+  background: #20d5c7;
 }

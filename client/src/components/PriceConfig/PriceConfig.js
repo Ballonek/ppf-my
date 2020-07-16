@@ -123,7 +123,7 @@ const PriceConfig = ({ t }) => {
         handleSubmit,
         isSubmitting,
       }) => (
-        <Container>
+        <Container id="priceConfig">
           <form onSubmit={handleSubmit}>
             <div className="configurator">
               <div className="header-text">{t("priceConfig.title")}</div>

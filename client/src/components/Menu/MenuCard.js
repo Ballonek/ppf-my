@@ -26,8 +26,10 @@ const MenuCard = ({ t, open }) => {
       // }}
     >
       {menuItems.map((item) => (
-        <a className="menu-button" href={item.title} key={item.title}>
+        <a className="menu-button" href={`#${item.title}`} key={item.title}>
+          <span>
           {t(`menu.${item.title}`)}
+          </span>
         </a>
       ))}
       <MenuSocial />

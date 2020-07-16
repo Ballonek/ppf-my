@@ -16,7 +16,7 @@ const employes = [
 
 const Carrer = ({ t }) => {
   return (
-    <Container className="career-wrapper">
+    <Container className="career-wrapper" id='career'>
       <div className="header">
         {t("career.title.line1")}
         <span className="color2"> {t("career.title.line2")}</span>
@@ -26,8 +26,8 @@ const Carrer = ({ t }) => {
         arrows
         className="career-carousel"
         slidesPerPage="3"
-        // autoPlay={4000}
-        // animationSpeed={1000}
+        autoPlay={4000}
+        animationSpeed={1000}
         breakpoints={{
           1130: {
             slidesPerPage: 2,

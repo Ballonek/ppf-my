@@ -12,7 +12,7 @@
     margin: 200px auto 0 auto;
 
     font-family: Gilroy Light;
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 1.2em;
 
     @media all and (max-width: 1366px) {
@@ -82,7 +82,7 @@
   }
 
   .career-header {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: $color-blue;
     // width: 80%;
     // margin: 0 auto;
@@ -104,6 +104,9 @@
     }
     @media screen and (max-width: 991px) {
       font-size: 2rem;
+    }
+    @media screen and (max-width: 480px) {
+      font-size: 1.5rem;
     }
   }
 

@@ -2,8 +2,8 @@ import React, { useState } from "react"
 import { Navbar, Container } from "reactstrap"
 import MenuToggle from "./MenuToggle"
 import MenuCard from "./MenuCard"
-import logo from '../../assets/logo.svg'
-import './style.scss';
+import logo from "../../assets/logo.svg"
+import "./style.scss"
 
 const Menu = () => {
   const [menuIsOpen, setMenuIsOpen] = useState(false)
@@ -18,11 +18,13 @@ const Menu = () => {
       <Navbar className="navbar" fixed="top">
         <Container className="navbar-container">
           <div className="scroll-button">
-            <img
-              className="scroll-button-img"
-              src={logo}
-              alt="Logo PPF Media"
-            />
+            <a href="#top">
+              <img
+                className="scroll-button-img"
+                src={logo}
+                alt="Logo PPF Media"
+              />
+            </a>
           </div>
           <MenuToggle clickHandler={toggleMenu} />
         </Container>

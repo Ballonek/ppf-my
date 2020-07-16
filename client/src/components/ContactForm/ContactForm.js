@@ -105,7 +105,7 @@ const ContactForm = ({ t }) => {
         handleSubmit,
         isSubmitting,
       }) => (
-        <Container>
+        <Container id="contact">
           <form onSubmit={handleSubmit}>
             <div className="contactForm-wrapper">
               <div className="flex-tape">
