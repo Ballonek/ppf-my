@@ -35,6 +35,7 @@ const CarrerCard = ({
         <Modal
           isOpen={modalIsOpen}
           className="careerModal"
+          toggle={toggle}
         >
           <div className="modalRowCareer">
             <div className="icon-wrapper">

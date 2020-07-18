@@ -41,7 +41,7 @@ html,
 body {
   // scroll-behavior: smooth;
   max-width: 100%;
-  overflow-x: hidden;
+  // overflow-x: hidden;
 }
 
 body {
@@ -55,7 +55,7 @@ body {
 
   &.modal-open {
     overflow: hidden;
-    position: fixed;
+    // position: fixed;
   }
 }
 

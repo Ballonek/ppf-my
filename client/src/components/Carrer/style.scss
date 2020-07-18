@@ -169,7 +169,7 @@
       padding: 0.5rem 1rem 0.5rem 1rem;
       column-gap:0rem;
       row-gap: 0.5rem;
-      grid-template-columns: repeat(1, 350px);
+      grid-template-columns: repeat(1, 100%);
       grid-template-rows: auto auto auto auto;
       grid-template-areas: 'icon'
       'slot1'
@@ -188,11 +188,11 @@
   .panel1 {
     text-align: left !important;
     grid-area: slot1;
-    // grid-area: icon;
-    display: flex;
-    // align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
+    // // grid-area: icon;
+    // display: flex;
+    // // align-items: center;
+    // justify-content: flex-start;
+    // flex-direction: column;
     @media screen and (max-width: 480px) {
       align-items: center;
     }
@@ -202,12 +202,12 @@
 
     grid-area: slot2;
     // grid-area: icon;
-    display: flex;
-    // align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
+    // display: flex;
+    // // align-items: center;
+    // justify-content: flex-start;
+    // flex-direction: column;
     @media screen and (max-width: 480px) {
-      align-items: center;
+      // align-items: center;
     }
   }
   .panel3 {
