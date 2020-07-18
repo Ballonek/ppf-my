@@ -4,12 +4,19 @@ import MenuToggle from "./MenuToggle"
 import MenuCard from "./MenuCard"
 import logo from "../../assets/logo.svg"
 import "./style.scss"
+import scrollIntoView from 'scroll-into-view'
 
 const Menu = () => {
   const [menuIsOpen, setMenuIsOpen] = useState(false)
 
   const toggleMenu = () => {
     setMenuIsOpen(!menuIsOpen)
+  }
+  const scrollTo = (e) => {
+    const anchor = document.querySelector(`#${e.target.parentElement.name}`)
+    scrollIntoView(anchor, {
+      time: 1000
+    })
   }
 
   return (
@@ -18,13 +25,13 @@ const Menu = () => {
       <Navbar className="navbar" fixed="top">
         <Container className="navbar-container">
           <div className="scroll-button">
-            <a href="#top">
+            <button name='top' onClick={scrollTo}>
               <img
                 className="scroll-button-img"
                 src={logo}
                 alt="Logo PPF Media"
               />
-            </a>
+            </button>
           </div>
           <MenuToggle clickHandler={toggleMenu} />
         </Container>

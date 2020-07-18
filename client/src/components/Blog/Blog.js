@@ -24,7 +24,6 @@ const Blog = ({ t }) => {
         infinite
         arrows
         className="blog-carousel"
-        // slidesPerPage="3"
         autoPlay={4000}
         animationSpeed={1000}
         breakpoints={{

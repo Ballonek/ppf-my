@@ -76,6 +76,15 @@ button {
   z-index: 900;
   transition: all 500ms ease-out;
 
+  @media screen and (max-width: 350px) {
+    top: -50px;
+    width: 100%;
+    button {
+      font-size: 1.3rem;
+      line-height: 3rem;
+    }
+  }
+
   &.closed {
     transform: translateY(-600px);
   }

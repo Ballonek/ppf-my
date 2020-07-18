@@ -1,7 +1,10 @@
 import React from 'react'
 import hambac from '../../assets/hambac.svg'
 
-import { setLanguage, withTranslation } from 'react-multi-lang'
+import {
+  // setLanguage,
+  withTranslation
+} from 'react-multi-lang'
 
 const MenuToggle = ({clickHandler, t}) => {
   return <div>{

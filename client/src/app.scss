@@ -39,7 +39,7 @@ h4 {
 
 html,
 body {
-  scroll-behavior: smooth;
+  // scroll-behavior: smooth;
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -52,6 +52,11 @@ body {
   scrollbar-color: #4ae4d8 #f1f1f1;
   scrollbar-width: 15px;
   -webkit-overflow-scrolling: touch;
+
+  &.modal-open {
+    overflow: hidden;
+    position: fixed;
+  }
 }
 
 ::-webkit-scrollbar {

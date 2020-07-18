@@ -15,7 +15,7 @@ const SegmentCardModal = ({
 }) => {
   return (
     <div>
-      <Modal isOpen={modalIsOpen} toggle={toggle} className="segmentModal">
+      <Modal isOpen={modalIsOpen} toggle={toggle} className="segmentModal" scrollable={true}>
         <div className="modalRow">
           <div className="modalRow-inner">
             <div xs className="displayCop">

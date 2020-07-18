@@ -20,12 +20,12 @@ const BlogCard = ({ blue, title, shortText, longText, image }) => {
       </div>
       <div className="blog-header">{ReactHtmlParser(title)}</div>
       <div className="blog-text">{ReactHtmlParser(shortText)}</div>
-      <div className="modal-container" onClick={(e) => e.stopPropagation()}>
+      <div className="modal-container">
         <Modal
           isOpen={modalIsOpen}
           autoFocus={true}
           toggle={toggle}
-          scrollable
+          scrollable={true}
           className={"blogModal" + (blue ? " blogModalBlue" : "")}
 
         >
