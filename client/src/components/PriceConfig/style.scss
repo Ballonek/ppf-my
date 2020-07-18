@@ -373,6 +373,7 @@
   object-fit: cover;
   &:active {
     outline: none !important;
+    box-shadow: none;
   }
 }
 

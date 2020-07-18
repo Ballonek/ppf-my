@@ -4,10 +4,14 @@ import { withTranslation } from "react-multi-lang"
 import particles from "../../assets/particles/particles"
 import './style.scss';
 import { Container } from "reactstrap"
+import Rellax from "react-rellax"
+
 
 const ParticlePanel = ({ t }) => {
   return (
     <div className="particles-wrapper" id='top'>
+    <Rellax speed={-4} className="block2" />
+    <Rellax speed={-4} className="block3" />
       <Particles
         className="particles-canvas"
         params={{
@@ -81,6 +85,7 @@ const ParticlePanel = ({ t }) => {
 
       <div className="particle-panel">
         <Container>
+        <Rellax speed={-3} className="block1" />
           <div className="particle-panel-center">
             <div className="header-text">
               {t("particlesPanel.title.line1")}

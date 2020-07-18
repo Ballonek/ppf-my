@@ -45,12 +45,16 @@
 .career-card {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding: 4rem 2rem;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2rem 0;
   width: 95%;
   border: 5px solid $color-blue;
   border-radius: 60px;
   position: relative;
+  min-height: 350px;
+  // height: auto;
+  max-width: 350px;
   &::before {
     content: " ";
     border-radius: 50px;
@@ -68,10 +72,17 @@
   }
 
   @media screen and (max-width: 991px) {
-    padding: 2.5rem 1.5rem;
+    // padding: 2.5rem 1.5rem;
   }
   @media screen and (max-width: 767px) {
-    align-items: center;
+    // align-items: center;
+  }
+  @media screen and (max-width: 480px) {
+    justify-content: center;
+  }
+  @media screen and (max-width: 350px) {
+    justify-content: center;
+    min-height: 300px;
   }
 
   .icon {
@@ -87,43 +98,43 @@
     // width: 80%;
     // margin: 0 auto;
     @media all and (max-width: 596px) {
-      font-size: 2rem;
+      // font-size: 2rem;
     }
-    @media screen and (max-width: 991px) {
-      font-size: 2rem;
+    @media screen and (max-width: 1191px) {
+      font-size: 2.2rem;
     }
     @media screen and (max-width: 480px) {
-      font-size: 1.5rem;
+      font-size:1.5rem;
     }
   }
 
-  .smoltxt {
-    font-size: 2.5rem;
-    @media all and (max-width: 596px) {
-      font-size: 2.3rem;
-    }
-    @media screen and (max-width: 991px) {
-      font-size: 2rem;
-    }
-    @media screen and (max-width: 480px) {
-      font-size: 1.5rem;
-    }
-  }
+  // .smoltxt {
+  //   font-size: 2.5rem;
+  //   @media all and (max-width: 596px) {
+  //     font-size: 2.3rem;
+  //   }
+  //   @media screen and (max-width: 991px) {
+  //     font-size: 2rem;
+  //   }
+  //   @media screen and (max-width: 480px) {
+  //     font-size: 1.5rem;
+  //   }
+  // }
 
   .career-text {
     font-size: 1.5rem;
     color: #919191;
     // width: 80%;
     // margin: 0 auto 30px auto;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     .color2 {
       color: $color-red;
     }
     @media all and (max-width: 596px) {
-      letter-spacing: 0;
+      // letter-spacing: 0;
     }
     @media screen and (max-width: 991px) {
-      font-size: 1.3rem;
+      // font-size: 1.3rem;
     }
     @media screen and (max-width:480px) {
       font-size: 1rem;

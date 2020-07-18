@@ -23,12 +23,11 @@ const BlogCard = ({ blue, title, shortText, longText, image }) => {
       <div className="modal-container" onClick={(e) => e.stopPropagation()}>
         <Modal
           isOpen={modalIsOpen}
-          onRequestClose={toggle}
-          shouldCloseOnOverlayClick={true}
-          shouldCloseOnEsc={true}
-          ariaHideApp={false}
+          autoFocus={true}
+          toggle={toggle}
+          scrollable
           className={"blogModal" + (blue ? " blogModalBlue" : "")}
-          overlayClassName="segmentModalOverlay"
+
         >
           <div className="modalRowCareer">
             <div>
