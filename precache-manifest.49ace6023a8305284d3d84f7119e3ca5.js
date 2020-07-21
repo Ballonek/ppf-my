@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "160ef380a82c85346a8d1f5d76f7262f",
+    "revision": "fbc35564e22092b709988686d7392adc",
     "url": "/ppf-my/index.html"
   },
   {
-    "revision": "8e79b38a8e8e27390502",
+    "revision": "bc2d72ffe52992eac958",
     "url": "/ppf-my/static/css/2.b9b43d8e.chunk.css"
   },
   {
-    "revision": "3e6c14145d3fc90e01f3",
+    "revision": "202bde1d3cdbdcd89f38",
     "url": "/ppf-my/static/css/main.f101611e.chunk.css"
   },
   {
-    "revision": "8e79b38a8e8e27390502",
-    "url": "/ppf-my/static/js/2.c9a33cde.chunk.js"
+    "revision": "bc2d72ffe52992eac958",
+    "url": "/ppf-my/static/js/2.9e737417.chunk.js"
   },
   {
     "revision": "b31c97d4ccc6ba2693e5b97185f7a61d",
-    "url": "/ppf-my/static/js/2.c9a33cde.chunk.js.LICENSE.txt"
+    "url": "/ppf-my/static/js/2.9e737417.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3e6c14145d3fc90e01f3",
-    "url": "/ppf-my/static/js/main.9a3a083b.chunk.js"
+    "revision": "202bde1d3cdbdcd89f38",
+    "url": "/ppf-my/static/js/main.4d8c92c5.chunk.js"
   },
   {
     "revision": "5d2fbfc2b840221df02a",
