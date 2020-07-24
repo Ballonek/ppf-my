@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "426a966b9aabe82d1c3f9514b35114f1",
+    "revision": "f2022b62899e0d989d5f976b00c2abf5",
     "url": "/ppf-my/index.html"
   },
   {
-    "revision": "bc2d72ffe52992eac958",
+    "revision": "ef18066135c05a1deb54",
     "url": "/ppf-my/static/css/2.b9b43d8e.chunk.css"
   },
   {
-    "revision": "0299eb8ebf8b66630d46",
-    "url": "/ppf-my/static/css/main.f101611e.chunk.css"
+    "revision": "ce22d2a18891cd70df62",
+    "url": "/ppf-my/static/css/main.d1e6d45f.chunk.css"
   },
   {
-    "revision": "bc2d72ffe52992eac958",
-    "url": "/ppf-my/static/js/2.9e737417.chunk.js"
+    "revision": "ef18066135c05a1deb54",
+    "url": "/ppf-my/static/js/2.f5edce96.chunk.js"
   },
   {
     "revision": "b31c97d4ccc6ba2693e5b97185f7a61d",
-    "url": "/ppf-my/static/js/2.9e737417.chunk.js.LICENSE.txt"
+    "url": "/ppf-my/static/js/2.f5edce96.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0299eb8ebf8b66630d46",
-    "url": "/ppf-my/static/js/main.a0fa67ab.chunk.js"
+    "revision": "ce22d2a18891cd70df62",
+    "url": "/ppf-my/static/js/main.40cd47ca.chunk.js"
   },
   {
     "revision": "5d2fbfc2b840221df02a",
@@ -104,10 +104,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ppf-my/static/media/Linkedin.b6a917b3.svg"
   },
   {
-    "revision": "82a2046dc17bdc1b229b115086766d58",
-    "url": "/ppf-my/static/media/accessibility.82a2046d.jpg"
-  },
-  {
     "revision": "6c415bf358cfb9b2420f528ba571bda3",
     "url": "/ppf-my/static/media/analysis.6c415bf3.svg"
   },
@@ -120,6 +116,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ppf-my/static/media/app_dev.51c12491.svg"
   },
   {
+    "revision": "d22535fd9a2ec56b9ef74c2be0f3f558",
+    "url": "/ppf-my/static/media/bitcoin.d22535fd.svg"
+  },
+  {
     "revision": "5636811fd0922d8d0dc52bb953ff60ca",
     "url": "/ppf-my/static/media/close.5636811f.svg"
   },
@@ -128,12 +128,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ppf-my/static/media/cloud.80988eb0.svg"
   },
   {
-    "revision": "2f800c3d73f17c9deb57aa9a0c9b267a",
-    "url": "/ppf-my/static/media/corporate.2f800c3d.svg"
+    "revision": "6b7a805c1f516b6b129252190b858e8d",
+    "url": "/ppf-my/static/media/copywriting.6b7a805c.svg"
   },
   {
-    "revision": "dfa37fd8f24f065393b8574652639fff",
-    "url": "/ppf-my/static/media/covid.dfa37fd8.jpg"
+    "revision": "2f800c3d73f17c9deb57aa9a0c9b267a",
+    "url": "/ppf-my/static/media/corporate.2f800c3d.svg"
   },
   {
     "revision": "c62aded729bf7146d491275e5019d7fc",
@@ -196,8 +196,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ppf-my/static/media/plusko_1.1b8a13f2.svg"
   },
   {
-    "revision": "9848e88b8d48d38ba38127753ae19be7",
-    "url": "/ppf-my/static/media/seo.9848e88b.jpg"
+    "revision": "3419b3f744e6b9ebfc39cc92aa129935",
+    "url": "/ppf-my/static/media/pristupnost_web.3419b3f7.svg"
+  },
+  {
+    "revision": "a07313694912e53222f41ac9ded86249",
+    "url": "/ppf-my/static/media/seo.a0731369.svg"
   },
   {
     "revision": "4f9aa5b64276204879f113fbbbccf16a",
@@ -214,10 +218,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e489427b357ed58bde367a6a999e574c",
     "url": "/ppf-my/static/media/twitter.e489427b.svg"
-  },
-  {
-    "revision": "2e79094b5597451afa09cc84b8f27421",
-    "url": "/ppf-my/static/media/typewriter.2e79094b.jpg"
   },
   {
     "revision": "a8c8cb92b66dfda57e2fd735087be651",
