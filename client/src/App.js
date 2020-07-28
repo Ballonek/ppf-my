@@ -4,6 +4,7 @@ import { Switch, Route } from "react-router-dom"
 //CSS
 import "./custom.scss"
 import "./app.scss"
+import "./icons.css"
 
 // TRANS STUFF STARTS
 import { setTranslations, setDefaultLanguage } from "react-multi-lang"

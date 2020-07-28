@@ -250,9 +250,9 @@
       padding: 3rem 3rem;
     }
   }
-  .noFuckingPadding {
-    padding: 0 !important;
-  }
+  // .noFuckingPadding {
+  //   padding: 0 !important;
+  // }
   .careerIcon {
     width: 200px;
   }
@@ -420,7 +420,7 @@
     font-family: Gilroy;
     text-align: left;
     line-height: 1em;
-    margin-top: 1.5rem;
+    // margin-top: 1.5rem;
     margin-left: 6rem;
     padding-right: 2rem;
     letter-spacing: 0.1em;
@@ -599,11 +599,21 @@
 .checkboxHack2 ~ label {
   color: $color-blue;
   background-color: #fff;
-  padding: 2rem 2rem;
+  // padding: 2rem 2rem;
   font-size: 1.5rem;
-  margin: 15px 10px;
+  // margin: 15px 10px;
 
   width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+
+
+
+  // width: 100%;
   text-align: center;
 
   transition: color $button-fade-time ease-in-out,
@@ -658,15 +668,18 @@
 
 .block1 {
   position: absolute;
-  top: 40%;
-  width: 100%;
+  top: 15%;
+  width: 80%;
   // max-width: 1000px;
   // height: 105vh;
-  min-height: 634px;
+  margin: auto;
+  right: 0;
+  min-height: 105vh;
   background-color: #48efe7;
   z-index: 1;
   border-radius: 50px;
   left: 0;
+
 
   // @media all and (max-width: 1366px) {
   //   max-width: 600px;
@@ -695,7 +708,7 @@
 
 .block2 {
   position: absolute;
-  left: 0;
+  left: -5%;
   top: 0;
   width: 10vw;
   height: 70vh;
@@ -717,7 +730,7 @@
 
 .block3 {
   position: absolute;
-  right: 0;
+  right: -5%;
   top: 470px;
   width: 10vw;
   max-width: 1100px;

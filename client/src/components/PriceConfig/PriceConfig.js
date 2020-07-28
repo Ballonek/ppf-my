@@ -177,7 +177,9 @@ const PriceConfig = ({ t }) => {
                   {t("priceConfig.subtitle2")}
                 </div>
                 <Slider
+                  className="sliderOP"
                   step="25"
+                  defaultValue="25"
                   dots={true}
                   onChange={handleSliderChange}
                   handleStyle={{

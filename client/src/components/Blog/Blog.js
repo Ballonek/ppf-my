@@ -9,10 +9,10 @@ import { Container } from "reactstrap"
 import { accessibility, covid, seo, typewriter } from "../../assets/blog"
 
 const blogs = [
-  { number: 1, img: seo },
-  { number: 2, img: covid, blue: true },
-  { number: 3, img: typewriter },
-  { number: 4, img: accessibility, blue: true },
+  { number: 1, icon: "icon-bitcoin" },
+  { number: 2, icon: "icon-copywriting", blue: true },
+  { number: 3, icon: "icon-pristupnost-web"},
+  { number: 4, icon: "icon-seo", blue: true },
 ]
 
 const Blog = ({ t }) => {
@@ -45,7 +45,7 @@ const Blog = ({ t }) => {
             title={t(`blog.blog${blog.number}.title`)}
             shortText={t(`blog.blog${blog.number}.shortText`)}
             longText={t(`blog.blog${blog.number}.longText`)}
-            image={blog.img}
+            icon={blog.icon}
             blue={blog.blue}
           ></BlogCard>
         ))}

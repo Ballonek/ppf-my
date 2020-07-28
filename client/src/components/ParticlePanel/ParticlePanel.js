@@ -33,7 +33,7 @@ const ParticlePanel = ({ t }) => {
           },
           particles: {
             number: {
-              value: 30,
+              value: 85,
               density: {
                 enable: true,
                 value_area: 5000,
@@ -59,7 +59,7 @@ const ParticlePanel = ({ t }) => {
             },
             size: {
               value: 50,
-              random: false,
+              random: true,
               animation: {
                 destroy: "none",
                 enable: true,
@@ -70,12 +70,12 @@ const ParticlePanel = ({ t }) => {
               },
             },
             opacity: {
-              value: 0.5,
+              value: 0.75,
               random: {
-                enable: false,
+                enable: true,
               },
               animation: {
-                enable: false,
+                enable: true,
               },
             },
           },

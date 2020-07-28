@@ -98,6 +98,7 @@ button {
     width: 100%;
     span {
       position: relative;
+      transition: all 300ms ease;
       &::after {
         display: block;
         content: "";
@@ -113,9 +114,10 @@ button {
     }
     &:hover {
       text-decoration: none;
+      color: $color-blue;
       span {
         &::after {
-          background-color: $color-blue;
+        //  background-color: $color-blue;
         }
       }
 

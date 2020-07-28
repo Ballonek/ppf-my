@@ -86,6 +86,19 @@
     }
   }
 }
+
+.modal-wrapper {
+  .icon {
+    font-size: 10rem;
+    &.red {
+      color: $color-red;
+    }
+    &.blue {
+      color: $color-blue;
+    }
+  }
+}
+
 .blog-card {
   // width: 350px;
   // min-height: 0px;
@@ -94,16 +107,25 @@
   -webkit-box-shadow: 2px 2px 10px -2px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 2px 2px 10px -2px rgba(0, 0, 0, 0.3);
   box-shadow: 2px 2px 10px -2px rgba(0, 0, 0, 0.3);
-  margin: 1rem 1rem;
   position: relative;
 
+  // margin: 1rem 1rem;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
+  // flex-wrap: wrap;
+  // justify-content: center;
   align-items: center;
-  min-height: 400px;
+  height: 400px;
   max-width: 350px;
-
+  .icon {
+    font-size: 7rem;
+    &.red {
+      color: $color-red;
+    }
+    &.blue {
+      color: $color-blue;
+    }
+  }
 
   // overflow: hidden;
 
@@ -135,8 +157,8 @@
     width: 85%;
     // margin: 0 auto;
     margin-bottom: 1rem;
-    align-self: flex-end;
-    justify-content: center;
+    // align-self: flex-end;
+    // justify-content: center;
     @media all and (max-width: 596px) {
       font-size: 2rem;
       line-height: 1.1em;
@@ -149,16 +171,16 @@
   }
 
   .blog-img-wrapper {
-    width: 100%;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     position: relative;
     z-index: -1;
     .blog-img {
       width: 100%;
       height: 100%;
-      object-fit: cover;
-      object-position: center;
-      filter: grayscale(100%) contrast(70%);
+      // object-fit: cover;
+      // object-position: center;
+      // filter: grayscale(100%) contrast(70%);
     }
   }
 
@@ -182,7 +204,7 @@
     color: $color-red;
   }
   .blog-img-wrapper::before {
-    content: "";
+    // content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -196,7 +218,7 @@
     );
   }
   .blog-img-wrapper::after {
-    content: "";
+    // content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -212,7 +234,7 @@
     color: $color-blue;
   }
   .blog-img-wrapper::before {
-    content: "";
+    // content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -226,7 +248,7 @@
     );
   }
   .blog-img-wrapper::after {
-    content: "";
+    // content: "";
     position: absolute;
     top: 0;
     left: 0;

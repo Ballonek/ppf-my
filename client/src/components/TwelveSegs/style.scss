@@ -6,7 +6,8 @@
   font-family: Gilroy Light;
   color: #fff;
   margin: 50px 0;
-
+  text-align: center;
+  width: 100%;
   position: relative;
   z-index: 2;
 
@@ -31,24 +32,27 @@
 }
 
 .tw-segment-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 100%;
-  height: 100%;
-  box-shadow: 0 4px 12px 0px rgba(0, 0, 0, 0.25);
+  // height: 100%;
+  box-shadow: 0 4px 12px 0px rgba(0, 0, 0, 0.17);
   border-radius: 25px;
   box-sizing: border-box;
 
-  padding: 1.4rem 1rem 0.5rem 1rem;
+  padding: 0rem 1rem 0 1.5rem;
   //   margin: 1rem;
   color: $color-red;
   font-size: 1.6rem;
   line-height: 1em;
-
+  
   background-color: #fff;
-
+  
   z-index: 2;
-
-  transition: transform $button-fade-time-quick ease-in-out;
-
+  
+  transition: all $button-fade-time-quick ease-out;
+  
   @media screen and (max-width: 767px) {
     width: 90%;
   }
@@ -58,30 +62,32 @@
     color: $color-red;
     font-size: 1.3rem;
   }
-
+  
   &-heading {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    // align-items: center;
+    font-size: 1.3rem;
     &-text {
-      max-width: 75%;
+      max-width: 60%;
+      margin-top: 0.5rem;
     }
     &-img {
-      width: 23%;
+      width: 28%;
       img {
         width: 100%;
       }
     }
     @media screen and (max-width: 480px) {
-    
-        margin-bottom: 1rem;
+      
+      // margin-bottom: 1rem;
     }
     
   }
   &-item {
   }
-
+  
   .subtext {
     font-size: 1rem;
     color: #949494;
@@ -91,11 +97,12 @@
       margin-top: 0.7rem;
     }
   }
-
+  
   &:hover {
     @media not screen and (hover: none) and (pointer: coarse) {
       transform: scale(1.05);
       cursor: pointer;
+      box-shadow: 0 4px 12px 0px rgba(0, 0, 0, 0.25);
     }
   }
 }
