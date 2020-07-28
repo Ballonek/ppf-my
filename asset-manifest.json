@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/ppf-my/static/css/main.d1e6d45f.chunk.css",
-    "main.js": "/ppf-my/static/js/main.40cd47ca.chunk.js",
-    "main.js.map": "/ppf-my/static/js/main.40cd47ca.chunk.js.map",
+    "main.css": "/ppf-my/static/css/main.c9fc6e99.chunk.css",
+    "main.js": "/ppf-my/static/js/main.4ad97383.chunk.js",
+    "main.js.map": "/ppf-my/static/js/main.4ad97383.chunk.js.map",
     "runtime-main.js": "/ppf-my/static/js/runtime-main.7b79a7c2.js",
     "runtime-main.js.map": "/ppf-my/static/js/runtime-main.7b79a7c2.js.map",
     "static/css/2.b9b43d8e.chunk.css": "/ppf-my/static/css/2.b9b43d8e.chunk.css",
-    "static/js/2.f5edce96.chunk.js": "/ppf-my/static/js/2.f5edce96.chunk.js",
-    "static/js/2.f5edce96.chunk.js.map": "/ppf-my/static/js/2.f5edce96.chunk.js.map",
+    "static/js/2.2c3ce2e2.chunk.js": "/ppf-my/static/js/2.2c3ce2e2.chunk.js",
+    "static/js/2.2c3ce2e2.chunk.js.map": "/ppf-my/static/js/2.2c3ce2e2.chunk.js.map",
     "index.html": "/ppf-my/index.html",
-    "precache-manifest.9c48bac76896651c31785199d83a001e.js": "/ppf-my/precache-manifest.9c48bac76896651c31785199d83a001e.js",
+    "precache-manifest.907d7d9d29a41a91f345752c6e28038b.js": "/ppf-my/precache-manifest.907d7d9d29a41a91f345752c6e28038b.js",
     "service-worker.js": "/ppf-my/service-worker.js",
     "static/css/2.b9b43d8e.chunk.css.map": "/ppf-my/static/css/2.b9b43d8e.chunk.css.map",
-    "static/css/main.d1e6d45f.chunk.css.map": "/ppf-my/static/css/main.d1e6d45f.chunk.css.map",
-    "static/js/2.f5edce96.chunk.js.LICENSE.txt": "/ppf-my/static/js/2.f5edce96.chunk.js.LICENSE.txt",
+    "static/css/main.c9fc6e99.chunk.css.map": "/ppf-my/static/css/main.c9fc6e99.chunk.css.map",
+    "static/js/2.2c3ce2e2.chunk.js.LICENSE.txt": "/ppf-my/static/js/2.2c3ce2e2.chunk.js.LICENSE.txt",
     "static/media/APP_dollar.svg": "/ppf-my/static/media/APP_dollar.ab866af1.svg",
     "static/media/APP_facebook.svg": "/ppf-my/static/media/APP_facebook.66574d20.svg",
     "static/media/APP_hashtag.svg": "/ppf-my/static/media/APP_hashtag.28681484.svg",
@@ -61,14 +61,15 @@
     "static/media/style.scss": "/ppf-my/static/media/track.0a39789c.svg",
     "static/media/training.svg": "/ppf-my/static/media/training.106ed619.svg",
     "static/media/twitter.svg": "/ppf-my/static/media/twitter.e489427b.svg",
+    "static/media/icons.css": "/ppf-my/static/media/untitled-font-3.b5fd3477.svg",
     "static/media/vyvojar.svg": "/ppf-my/static/media/vyvojar.a8c8cb92.svg",
     "static/media/web_dev.svg": "/ppf-my/static/media/web_dev.f1e642b3.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.7b79a7c2.js",
     "static/css/2.b9b43d8e.chunk.css",
-    "static/js/2.f5edce96.chunk.js",
-    "static/css/main.d1e6d45f.chunk.css",
-    "static/js/main.40cd47ca.chunk.js"
+    "static/js/2.2c3ce2e2.chunk.js",
+    "static/css/main.c9fc6e99.chunk.css",
+    "static/js/main.4ad97383.chunk.js"
   ]
 }
