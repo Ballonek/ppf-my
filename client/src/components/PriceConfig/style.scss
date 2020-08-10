@@ -5,6 +5,7 @@
     width: 100vw;
     max-width: 1000px;
     margin-top: 200px;
+    letter-spacing: 0.3rem;
 
     color: $color-blue;
     font-family: Gilroy;
@@ -72,11 +73,25 @@
   .configurator-wrapper-inner-flex {
     width: 90%;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 4rem);
+    // margin-bottom: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 4rem);
     margin: auto;
-    row-gap: 1rem;
-    column-gap: 1rem;
+    row-gap: 0.5rem;
+    column-gap: 0.5rem;
+    @media all and (max-width: 1200px) {
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 0.5rem;
+      align-items: center;
+      // justify-content: center;
+
+      label {
+        margin: auto;
+        // width: 40%;
+        padding: 1rem;
+      }
+    }
 
     @media all and (max-width: 596px) {
       width: 100%;
@@ -156,7 +171,7 @@
   border: 3px solid $color-blue;
   border-radius: 27px;
   // padding: 0.5rem;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   // margin: 10px 5px;
 
   width: 100%;
@@ -192,14 +207,15 @@
 .checkboxHack:checked ~ label {
   color: $color-red;
   border-color: $color-red;
-  border-width: 4px;
-  margin: 9px 1px 9px 5px; //remove 2px on each side
+  // border-width: 4px;
+  // margin: 9px 1px 9px 5px; //remove 2px on each side
 }
 
 .serviceSelect {
   // flex-basis: 300px;
   // flex-grow: 1;
   // width: 300px;
+  min-width: 250px;
 
   @media screen and (max-width: 480px) {
     width: 90%;
@@ -215,15 +231,15 @@
 
 .sliderTitle {
   font-size: 1.7rem;
-  color: #9d9fa3;
   text-align: center;
   margin-top: 2.5rem;
+  color: #9d9fa3;
 }
 
 .sliderText {
   font-size: 1.4rem;
   font-family: Gilroy Light;
-  color: #9d9fa3;
+  color: #B6B6B6;
   text-align: center;
   width: 70%;
   margin: 0 auto;
@@ -251,6 +267,7 @@
   padding: 1rem 0;
   @media all and (max-width: 666px) {
     font-size: 2rem;
+    text-align: center;
   }
 }
 
@@ -271,8 +288,9 @@
 }
 
 .priceContact-wrapper {
+  padding-bottom: 4rem;
   width: 80%;
-  margin: 7rem auto 4rem auto;
+  margin: 4rem auto 4rem auto;
   @media all and (max-width: 666px) {
     width: 90%;
     margin: 4rem auto 4rem auto;
@@ -300,7 +318,7 @@
 
   &::placeholder {
     text-align: center;
-    color: #aaa;
+    color: #ccc;
   }
 }
 
@@ -315,6 +333,7 @@
   margin: 0 auto;
   display: block;
   height: 84px;
+  letter-spacing: 0.2rem;
 
   &:hover {
     background-color: $color-blue;
@@ -325,13 +344,6 @@
     margin-top: 1rem;
     font-size: 1.6rem;
   }
-}
-
-.flex-tape {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: center;
 }
 
 .emailErrors {
@@ -348,9 +360,9 @@
   font-size: 1rem;
   text-align: center;
   height: 24px;
-  margin-top: 0.5rem;
+  // margin-top: 0.5rem;
   @media all and (min-width: 966px) {
-    margin-right: 4rem;
+    // margin-right: 4rem;
   }
 }
 
@@ -389,4 +401,8 @@
     border: none !important;
     box-shadow: none !important;
   }
+}
+
+.priceContact-email-wrapper {
+  margin-bottom: 2rem;
 }

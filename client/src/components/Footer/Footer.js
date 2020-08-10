@@ -3,10 +3,29 @@ import { withTranslation } from "react-multi-lang"
 import "@brainhubeu/react-carousel/lib/style.css"
 import "./style.scss"
 import mail from "../../assets/mail.svg"
+import { Container } from "reactstrap"
+import TextLoop from "react-text-loop"
 
-const Footer = () => {
+import scrollIntoView from "scroll-into-view"
+
+const blogs = [
+  { number: 1, icon: "icon-bitcoin" },
+  { number: 2, icon: "icon-copywriting", blue: true },
+  { number: 3, icon: "icon-pristupnost-web" },
+  { number: 4, icon: "icon-seo", blue: true },
+]
+
+const Footer = ({ t }) => {
+  const scrollTo = (e) => {
+    // clickHandler();
+    const anchor = document.querySelector(`#blog`)
+    scrollIntoView(anchor, {
+      time: 1000,
+    })
+  }
+
   return (
-    <div className="footer">
+    <Container className="footer">
       <div className="bluePanel">
         <h1>Kontakt</h1>
         <p className="leftBorder">
@@ -17,45 +36,51 @@ const Footer = () => {
         </p>
         <h4>NEJNOVĚJŠÍ PŘÍSPĚVKY</h4>
         <div className="leftBorder2">
-          <button className="mailLink">Praktické tipy pro lepší SEO</button>
-          <button className="mailLink">Koronavirová krize a bitcoin?</button>
+          <TextLoop mask={true}>
+            {blogs.map((blog) => (
+              <button onClick={scrollTo} href="#blog" className="mailLink">
+                {t(`blog.blog${blog.number}.title`)}
+              </button>
+            ))}
+          </TextLoop>
         </div>
         <div className="curtain"></div>
       </div>
-      <div className="break"></div>
       <div className="orangePanel">
-        <a
-          href="https://www.facebook.com/ppfmedia/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="orangeLink"
-        >
-          Facebook
-        </a>
-        <a
-          href="https://www.instagram.com/ppfmedia/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="orangeLink"
-        >
-          Instagram
-        </a>
-        <a
-          href="https://twitter.com/PPFmediaCZ"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="orangeLink"
-        >
-          Twitter
-        </a>
-        <a
-          href="https://cz.linkedin.com/company/ppf-media"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="orangeLink"
-        >
-          LinkedIn
-        </a>
+        <div className="link">
+          <a
+            href="https://www.facebook.com/ppfmedia/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="orangeLink"
+          >
+            Facebook
+          </a>
+          <a
+            href="https://www.instagram.com/ppfmedia/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="orangeLink"
+          >
+            Instagram
+          </a>
+          <a
+            href="https://twitter.com/PPFmediaCZ"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="orangeLink"
+          >
+            Twitter
+          </a>
+          <a
+            href="https://cz.linkedin.com/company/ppf-media"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="orangeLink"
+          >
+            LinkedIn
+          </a>
+        </div>
         <div className="tinyText">
           <a
             href="./files/cookies.html"
@@ -69,7 +94,7 @@ const Footer = () => {
           <b>@ 2020 PPF MEDIA</b>
         </div>
       </div>
-    </div>
+    </Container>
   )
 }
 

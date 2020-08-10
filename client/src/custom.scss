@@ -2,6 +2,10 @@
 
 .BrainhubCarousel__arrows {
   background-color: rgba(0, 0, 0, 0) !important;
+
+  @media screen and (max-width: 480px) {
+    // padding: 12px;
+  }
 }
 
 .BrainhubCarousel__container {
@@ -11,12 +15,26 @@
 
 .BrainhubCarousel__arrows span {
   border-color: $color-red !important;
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
+}
+
+.BrainhubCarouselItem {
+  border-radius: 25px;
+  // width: 90%;
+  // opacity: 0;
+  // transition: all 100ms linear;
+  &--active {
+    // box-shadow: 0 4px 12px 0px rgba(0, 0, 0, 0.15);
+  }
 }
 
 .modal-content {
   overflow-y: auto;
+  overflow: auto;
+}
+
+.modal-dialog-scrollable .modal-content {
   overflow: auto;
 }
 
@@ -49,6 +67,7 @@
     height: 100vh;
     background-color: rgba(255, 255, 255, 0.8);
     z-index: 6;
+    overflow: auto;
   }
 }
 
@@ -407,7 +426,6 @@
     // line-height: 1.2em;
     p {
       // margin: 0.5rem 0;
-    
     }
     @media screen and (max-width: 596px) {
       // width: fit-content;
@@ -575,7 +593,7 @@
       grid-template-columns: repeat(2, 1fr);
       column-gap: 2rem;
 
-      @media screen and (max-width: 768px){
+      @media screen and (max-width: 768px) {
         grid-template-columns: repeat(1, 1fr);
       }
     }
@@ -600,7 +618,7 @@
   color: $color-blue;
   background-color: #fff;
   // padding: 2rem 2rem;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   // margin: 15px 10px;
 
   width: 100%;
@@ -609,9 +627,6 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-
-
-
 
   // width: 100%;
   text-align: center;
@@ -680,14 +695,19 @@
   border-radius: 50px;
   left: 0;
 
-
   // @media all and (max-width: 1366px) {
   //   max-width: 600px;
   //   left: calc((100vw - min(95vw, 600px)) / 2);
   // }
 
-  @media all and (max-width: 350px){
-    top:5%
+  @media all and (max-width: 500px) {
+    top: 5%;
+    width: 100%;
+  }
+
+  @media all and (max-width: 768px) {
+    top: 0%;
+    width: 100%;
   }
 
   // @media all and (max-width: 1024px) {
@@ -701,9 +721,10 @@
   //   left: calc((100vw - 85vw) / 2);
   // }
 
-  // @media screen and (max-width: 768px) {
-  //   top: 100px;
-  // }
+  @media screen and (max-width: 480px) {
+    top: 20.5%;
+    min-height: 93vh;
+  }
 }
 
 .block2 {
@@ -717,7 +738,7 @@
   z-index: 0;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
-  z-index:1;
+  z-index: 1;
 
   @media all and (max-width: 1366px) {
     max-width: 5vw;

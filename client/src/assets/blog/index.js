@@ -1,6 +1,6 @@
-import accessibility from "./pristupnost_web.svg"
-import covid from "./bitcoin.svg"
-import seo from "./seo.svg"
-import typewriter from "./copywriting.svg"
+import { ReactComponent as accessibility } from "./pristupnost_web.svg"
+import { ReactComponent as covid } from "./bitcoin.svg"
+import { ReactComponent as seo } from "./seo.svg"
+import { ReactComponent as typewriter } from "./copywriting.svg"
 
 export { accessibility, covid, seo, typewriter }

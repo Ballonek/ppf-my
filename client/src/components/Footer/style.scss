@@ -29,11 +29,48 @@
     border-top-right-radius: 70px;
 
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    // flex-wrap: wrap;
+    align-items: flex-end;
+    // flex-direction: row;
+    // justify-content: space-evenly;
+    position: relative;
+    
+    z-index: 4;
+    flex-direction: column;
+    @media (max-width: 480px) {
+    
+      &::after {
+        z-index: 1;
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-color: $color-red;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: -50%;
+        overflow: hidden;
+      }
+    }
+
+    .link {
+      display: flex;
+      flex-direction: row;
+
+      z-index: 5;
+      @media (max-width: 480px) {
+        flex-direction: column;
+      }
+
+    }
+
     .orangeLink {
       color: #fff !important;
       margin: 0 0.5rem;
+
+      &:last-child {
+        margin: 0;
+      }
     }
     @media all and (max-width: 596px) {
       .orangeLink {
@@ -49,6 +86,7 @@
     }
 
     .tinyText {
+      z-index: 5;
       width: 100%;
       font-size: 0.6rem;
       font-family: Gilroy Light;
@@ -114,6 +152,11 @@
       button {
         margin-top: 0.2rem;
         margin-bottom: 0.2rem;
+        transition: all 350ms linear;
+        &:hover {
+          text-decoration: underline;
+          font-weight: bold;
+        }
       }
     }
 

@@ -54,7 +54,7 @@ body {
   -webkit-overflow-scrolling: touch;
 
   &.modal-open {
-    overflow: hidden;
+    // overflow: auto;
     // position: fixed;
   }
 }

@@ -11,12 +11,9 @@ const BlogCard = ({ blue, title, shortText, longText, icon }) => {
   }
 
   return (
-    <div
-      className={"blog-card" + (blue ? " blog-card-blue" : " blog-card-red")}
-      onClick={toggle}
-    >
+    <div className={"blog-card blog-card-red"} onClick={toggle}>
       <div className="icon">
-        <i className={"untitled-font-3 " + icon + (blue ? " blue" : " red")} />
+        <i className={"untitled-font-3 " + icon + " red"} />
       </div>
       <div className="blog-header">{ReactHtmlParser(title)}</div>
       <div className="blog-text">{ReactHtmlParser(shortText)}</div>
@@ -26,13 +23,11 @@ const BlogCard = ({ blue, title, shortText, longText, icon }) => {
           autoFocus={true}
           toggle={toggle}
           scrollable={true}
-          className={"blogModal" + (blue ? " blogModalBlue" : "")}
+          className={"blogModal"}
         >
           <div className="modalRowCareer">
             <div>
-              <div
-                className={"modal-wrapper " + (blue ? " blue" : " red")}
-              >
+              <div className={"modal-wrapper blue"}>
                 <div className="icon">
                   <i className={"untitled-font-3 " + icon} />
                 </div>

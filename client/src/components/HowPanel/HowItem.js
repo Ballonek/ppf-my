@@ -1,12 +1,11 @@
 import React from "react"
 import { withTranslation } from "react-multi-lang"
-import ScrollAnimation from 'react-animate-on-scroll'
+import ScrollAnimation from "react-animate-on-scroll"
 
 const HowItem = ({ step, t }) => {
   const isNumber = (item) => {
     return isNaN(item) ? "plus" : "number"
   }
-
 
   return (
     <div className={`big-wrapper`}>
@@ -19,11 +18,9 @@ const HowItem = ({ step, t }) => {
           {isNaN(step) ? step : `${step}.`}
         </ScrollAnimation>
       </div>
-      <div className="big-text">
-        <div className="big-text-header">{t(`howPanel.step${step}.title`)}</div>
-        <div className="big-text-content">
-          {t(`howPanel.step${step}.subtext`)}
-        </div>
+      <div className="big-text big-text-header">{t(`howPanel.step${step}.title`)}</div>
+      <div className="big-text big-text-content">
+        {t(`howPanel.step${step}.subtext`)}
       </div>
     </div>
   )

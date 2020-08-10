@@ -29,11 +29,11 @@ const segments = [
 ]
 
 const PriceConfig = ({ t }) => {
-  const [sliderValue, setSliderValue] = useState(0)
+  const [sliderValue, setSliderValue] = useState(25)
   const [modalIsOpen, setModalIsOpen] = useState(false)
   const [priceBase, setPriceBase] = useState(0)
   const [sliderIsOpen, setSliderIsOpen] = useState(false)
-  const [priceMultiplier, setPriceMultiper] = useState(1)
+  const [priceMultiplier, setPriceMultiper] = useState(2)
   const [matches, setMatches] = useState({
     matches: window.matchMedia("(max-width: 1200px)").matches,
   })
@@ -179,7 +179,7 @@ const PriceConfig = ({ t }) => {
                 <Slider
                   className="sliderOP"
                   step="25"
-                  defaultValue="25"
+                  defaultValue={sliderValue}
                   dots={true}
                   onChange={handleSliderChange}
                   handleStyle={{

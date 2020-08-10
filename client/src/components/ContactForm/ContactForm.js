@@ -107,7 +107,7 @@ const ContactForm = ({ t }) => {
       }) => (
         <Container id="contact">
           <form onSubmit={handleSubmit}>
-            <div className="contactForm-wrapper">
+            <Container className="contactForm-wrapper">
               <div className="flex-tape">
                 <div className="header-text">
                   {t("contactForm.title.line1")}
@@ -222,7 +222,7 @@ const ContactForm = ({ t }) => {
                   </p>
                 </Modal>
               </div>
-            </div>
+            </Container>
           </form>
         </Container>
       )}

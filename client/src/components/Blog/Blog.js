@@ -6,7 +6,7 @@ import BlogCard from "./BlogCard"
 import ReactHtmlParser from "react-html-parser"
 import "./style.scss"
 import { Container } from "reactstrap"
-import { accessibility, covid, seo, typewriter } from "../../assets/blog"
+// import { accessibility, covid, seo, typewriter } from "../../assets/blog"
 
 const blogs = [
   { number: 1, icon: "icon-bitcoin" },
@@ -21,11 +21,11 @@ const Blog = ({ t }) => {
       <div className="header-text">{ReactHtmlParser(t("blog.title"))}</div>
       <div className="header">{ReactHtmlParser(t("blog.subtitle"))}</div>
       <Carousel
-        infinite
+        // infinite
         arrows
         className="blog-carousel"
-        autoPlay={4000}
-        animationSpeed={1000}
+        // autoPlay={4000}
+        // animationSpeed={1000}
         breakpoints={{
           1366: {
             slidesPerPage: 3
