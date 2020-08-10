@@ -152,9 +152,9 @@
       button {
         margin-top: 0.2rem;
         margin-bottom: 0.2rem;
-        transition: all 350ms linear;
+        transition: all 250ms linear;
         &:hover {
-          text-decoration: underline;
+          // text-decoration: underline;
           font-weight: bold;
         }
       }
