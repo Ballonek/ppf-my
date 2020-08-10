@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "743369d63247c21f737b9f5d9e189489",
+    "revision": "f6e33b8850e5a6d27117e7c609c26e71",
     "url": "/ppf-my/index.html"
   },
   {
-    "revision": "813105ff6c7d005b35c9",
+    "revision": "17f04ea833fad0f2f0fb",
     "url": "/ppf-my/static/css/2.b9b43d8e.chunk.css"
   },
   {
-    "revision": "d5a18082fe0c7e223da1",
-    "url": "/ppf-my/static/css/main.6b13bdc3.chunk.css"
+    "revision": "73d788f0f3dc5bfc24d6",
+    "url": "/ppf-my/static/css/main.e39c8779.chunk.css"
   },
   {
-    "revision": "813105ff6c7d005b35c9",
-    "url": "/ppf-my/static/js/2.31305459.chunk.js"
+    "revision": "17f04ea833fad0f2f0fb",
+    "url": "/ppf-my/static/js/2.04773d52.chunk.js"
   },
   {
     "revision": "b31c97d4ccc6ba2693e5b97185f7a61d",
-    "url": "/ppf-my/static/js/2.31305459.chunk.js.LICENSE.txt"
+    "url": "/ppf-my/static/js/2.04773d52.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d5a18082fe0c7e223da1",
-    "url": "/ppf-my/static/js/main.b9ec5d9c.chunk.js"
+    "revision": "73d788f0f3dc5bfc24d6",
+    "url": "/ppf-my/static/js/main.689b657e.chunk.js"
   },
   {
     "revision": "5d2fbfc2b840221df02a",
@@ -116,20 +116,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ppf-my/static/media/app_dev.51c12491.svg"
   },
   {
-    "revision": "d22535fd9a2ec56b9ef74c2be0f3f558",
-    "url": "/ppf-my/static/media/bitcoin.d22535fd.svg"
-  },
-  {
     "revision": "5636811fd0922d8d0dc52bb953ff60ca",
     "url": "/ppf-my/static/media/close.5636811f.svg"
   },
   {
     "revision": "80988eb0c03a153ec8109871ce348c49",
     "url": "/ppf-my/static/media/cloud.80988eb0.svg"
-  },
-  {
-    "revision": "6b7a805c1f516b6b129252190b858e8d",
-    "url": "/ppf-my/static/media/copywriting.6b7a805c.svg"
   },
   {
     "revision": "2f800c3d73f17c9deb57aa9a0c9b267a",
@@ -194,14 +186,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1b8a13f27ce47c75f32420e7c881a025",
     "url": "/ppf-my/static/media/plusko_1.1b8a13f2.svg"
-  },
-  {
-    "revision": "3419b3f744e6b9ebfc39cc92aa129935",
-    "url": "/ppf-my/static/media/pristupnost_web.3419b3f7.svg"
-  },
-  {
-    "revision": "a07313694912e53222f41ac9ded86249",
-    "url": "/ppf-my/static/media/seo.a0731369.svg"
   },
   {
     "revision": "4f9aa5b64276204879f113fbbbccf16a",
