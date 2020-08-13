@@ -42,7 +42,7 @@
   justify-content: center;
   width: 100%;
   // height: 100%;
-  box-shadow: 0 4px 12px 0px rgba(0, 0, 0, 0.17);
+  box-shadow: 0 2px 5px 0px rgba(0, 0, 0, 0.15);
   border-radius: 25px;
   box-sizing: border-box;
 
@@ -59,7 +59,8 @@
   transition: all $button-fade-time-quick ease-out;
 
   @media screen and (max-width: 480px) {
-    min-height: 170px;
+    min-height: 180px;
+    max-width: 240px;
   }
 
   // @media screen and (max-width: 767px) {
@@ -92,6 +93,9 @@
     &-text {
       // max-width: 60%;
       margin-top: 0.5rem;
+      @media (max-width: 480px) {
+        font-size: 1.55rem
+      }
     }
     &-img {
       width: 28%;
@@ -124,7 +128,7 @@
     line-height: 1.3rem;
     @media all and (max-width: 480px) {
       // margin-top: 0.7rem;
-      font-size: 0.9rem;
+      font-size: 1rem;
     }
   }
 

@@ -34,7 +34,7 @@ const Footer = ({ t }) => {
             info@ppfmedia.cz
           </a>
         </p>
-        <h4>NEJNOVĚJŠÍ PŘÍSPĚVKY</h4>
+        <h4 style={{textTransform: 'uppercase'}}>{t(`footer.title`)}</h4>
         <div className="leftBorder2">
           <TextLoop mask={true}>
             {blogs.map((blog) => (

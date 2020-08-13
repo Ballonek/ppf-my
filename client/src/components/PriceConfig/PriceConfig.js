@@ -43,7 +43,8 @@ const PriceConfig = ({ t }) => {
     window.matchMedia("(max-width: 1200px)").addListener(handler)
   }, [matches])
 
-  const handleSliderOpen = () => {
+  const handleSliderOpen = (e) => {
+    e.preventDefault();
     setSliderIsOpen(!sliderIsOpen)
   }
 

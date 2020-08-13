@@ -10,10 +10,12 @@ const BlogCard = ({ blue, title, shortText, longText, icon }) => {
     setModalIsOpen(!modalIsOpen)
   }
 
+  const Icon = icon
+
   return (
     <div className={"blog-card blog-card-red"} onClick={toggle}>
       <div className="icon">
-        <i className={"untitled-font-3 " + icon + " red"} />
+        <Icon />
       </div>
       <div className="blog-header">{ReactHtmlParser(title)}</div>
       <div className="blog-text">{ReactHtmlParser(shortText)}</div>

@@ -142,7 +142,7 @@
     "required": "Required",
     "badEmail": "Invalid email address",
     "estimate": "Your estimate",
-    "yourEmail": "Your email",
+    "yourEmail": "Your e-mail",
     "contactMe": "Contact me",
     "msgSent": "Message has been sent successfully :-)",
     "sliderText": {
@@ -171,8 +171,64 @@
 
   "career": {
     "title": {
-      "line1": "Jumpstart your",
-      "line2": "personal development"
+      "line1": "Nastartujte s námi svůj",
+      "line2": "osobní rozvoj"
+    },
+    "designer": {
+      "title": "#GRAPHIC DESIGNER",
+      "line1": "#Making designs",
+      "line2": "#Drawing/painting",
+      "line3": "#Creative mind",
+      "long1": "<p>#tvorba <span class='blue'>návrhů</span></p><p>#kresba</p><p>#kreativní <span class='blue'>mysl</span></p><p>#chuť <span class='blue'>tvořit</span></p><p>#přiměřený <span class='blue'>skill</span></p>",
+      "long2": "<p>#svoboda</p><p>#<span class='blue'>pohoda</span> v práci</p><p>#férová <span class='blue'>odměna</span></p><p><span class='blue'>#zkušenosti</span></p><p>#mnohem víc</p>",
+      "long3": "Náš grafik by měl být zkrátka pohodář, který se nezalekne žádné výzvy a je schopný přicházet s novými nápady, které nás i zákazníky ohromí."
+    },
+    "developer": {
+      "title": "#DEVELOPER",
+      "line1": "#Original solutions",
+      "line2": "#Highflying nature",
+      "line3": "#Analytical mind",
+      "long1": "<p>#originální <span class='blue'>řešení</span></p><p>#<span class='blue'>ambice</span> jít vpřed</p><p>#analytická <span class='blue'>mysl</span></p><p>#eliminace <span class='blue'>problémů</span></p><p>#přiměřený <span class='blue'>skill</span></p>",
+      "long2": "<p>#svoboda</p><p>#<span class='blue'>pohoda</span> v práci</p><p>#férová <span class='blue'>odměna</span></p><p>#mnohem víc</p>",
+      "long3": "Náš vývojář by měl být znalý nejpoužívanějších programovacích jazyků a měl by být schopný vyřešit i neřešitelné. Logické a analytické schopnosti jsou samozřejmostí."
+    },
+    "salesman": {
+      "title": "#SALESMAN",
+      "line1": "#Charisma",
+      "line2": "#Assertiveness",
+      "line3": "#Communicativeness",
+      "long1": "<p>#charisma</p><p>#asertivita</p><p>#komunikativnost</p><p>#<span class='blue'>umění prodat</span> cokoliv komukoliv</p>",
+      "long2": "<p>#svoboda</p><p>#<span class='blue'>pohoda</span> v práci</p><p>#férová <span class='blue'>odměna</span></p><p>#mnohem víc</p>",
+      "long3": "Obchodník musí být asertivní a komunikativní osoba, která se nezalekne ani nejkonzervativnějšího klienta. Když tě vyhodí dveřmi, vrátíš se zpátky oknem. Jsi extrovert, pro kterého není marketing sprosté slovo? Pak hledáme právě tebe."
+    }
+  },
+
+  "blog": {
+    "title": "Blog",
+    "subtitle": "The latest news from <span class='red'>digital</span>",
+    "blog1": {
+      "title": "Praktické tipy pro lepší SEO",
+      "longTitle": "Praktické tipy pro lepší SEO aneb jak vyhrát bitvu o vyšší příčky v SERP",
+      "shortText": "Nedaří se vám najít dostatek čtenářů&nbsp;/ zákazníků vašich stránek, i když máte za to, že je web plný kvalitního obsahu? Patrně bude chyba ve...",
+      "longText": "Nedaří se vám najít dostatek čtenářů&nbsp;/ zákazníků vašich stránek, i když máte za to, že je web plný kvalitního obsahu? Patrně bude chyba ve vašem SEO (Search Engine Optimization). Níže nejdete několik tipů, jak se vyšplhat na vyšší příčky ve vyhledávačích.<h4>Analýza firmy</h4>Vhodným počátkem čehokoliv je znát sebe sama. Uvědomte si, kdo jste a co je hlavní komoditou vašeho podnikání. Když znáte stěžejní služby, s nimiž jdete na trh, můžete pak právě na těchto službách zakládat své SEO.<h4>Analýza zákazníka</h4>Zamyslete se nad tím, kdo jsou vaši zákazníci, jakým způsobem přemýšlí a co od trhu očekávají. Pokud si toto ujasníte, bude mnohem snazší volit správné keywords a fráze. Není nijak překvapivé, že zákazník používá odlišný slovník než prodejce.<br/>Pomoci si můžete dotazováním svých známých. Ptejte se, jak by daný produkt/problém/službu vyhledávali oni, s jakými slovy pracují při používání internetového vyhledávače apod.<h4>Analýza konkurence</h4>Je velmi důležité znát svého protivníka, protože konkurence je ideálním prostředkem pro poučení. Velmi často má totiž nějakou SEO analýzu již za sebou a ví, jaká vhodná klíčová slova používat, jaká témata zákazník vyhledává apod. Stejně tak lze odkoukat, kde má konkurence mezery a kde můžete naopak zazářit se svým obsahem. Analýzu konkurence lze jednoduše provést přes Google zadáváním různých keywords nebo pomocí sofistikovanějších aplikací jako např. Moz nebo SEMrush, které jsou schopné mnohem objektivněji zanalyzovat preference ve vyhledávačích, externí odkazy daných stránek apod.<h4>Jak na keywords?</h4>Na základě výše provedených analýz máte již velmi slušnou představu o tom, jaké keywords a fráze na svém webu použít. Zaměřte se na to, aby se všechny relevantní keywords a fráze objevovaly v nadpisech a podnadpisech. Je také žádoucí, aby byly na začátku či konci odstavců a textů.<br/>Pro Google SERP (Search Engine Results Page) je důležité, aby titulek stránky obsahoval max. 65 znaků a popisek stránky max. 155 znaků.<h4>Interní a externí odkazy</h4>Dalším žádoucím SEO prvkem je přiměřené množství odkazů, kterými odkazujete na obsah uvnitř stránky, čímž zlepšujete orientaci na webu. Odkazy na weby mimo vaši stránku zase zvyšují serióznost a odbornost.<h4>Aktualizace a sezónní příspěvky</h4>Nespoléhejte na to, že vaše dva roky staré příspěvky budou i nadále plnit dobrou SEO službu. Je potřeba neustále aktualizovat a doplňovat starší obsah, abyste byli pro vyhledávače jako Google aktuální a relevantní položkou v SERP.<br/>Stejně tak dbejte na to, abyste pravidelně přidávali takový obsah, který koresponduje s aktuálním děním (např. COVID krize, ekonomická krize, nové trendy apod.). Lidé hojně vyhledávají aktuality, čehož v rámci SEO chcete využít a dostat je na svůj web."
+    },
+    "blog2": {
+      "title": "Koronavirová krize a bitcoin?",
+      "longTitle": "Co nám může říct koronavirová krize o bitcoinu?",
+      "shortText": "Pokud patříte mezi ty, kteří používají kryptoměny jako vhodný nástroj k diverzifikaci portofolia, možná vás následující řádky překvapí.",
+      "longText": "<h4>Bitcoin, nebo zlato?</h4>Bitcoin i jiné kryptoměny se zdají být v rámci diverzifikace portfolia výhodné z toho důvodu, že nejsou obchodovány na stejných trzích jako akcie či komodity, nejsou tedy zatíženy propady těchto trhů a náladou tržních aktérů.<br/>Mohlo by se zdát, že je bitcoin podobný jako zlato, které odolává např. propadům ceny na akciových trzích a jeho hodnota v době krize může i překvapivě růst. Jak se však během (snad již odeznívající) koronavirové krize ukázalo, tak na rozdíl od funkčního zlata bitcoin ztrácel stejně jako akciové trhy.<br/><h4>Pomalý konec bitcoinu?</h4>Z toho by se dalo odvodit, že bitcoin není zase tak spolehlivým diverzifikačním prostředkem. Je tomu ale skutečně tak?<br/>Bitcoin je poměrně mladý, jelikož vznikl teprve v roce 2009. Není zde tedy prozatím příliš empirického materiálu, který by ukázal, jak odolává větší finanční krizi a jak se chová po jejím konci.<br/>Odpověď ukáže až delší časový horizont, který je v rámci skutečného obchodování v buffettovském stylu směrodatný. Vše ostatní zůstává jen řečí nenasytných spekulantů, jejichž dlouhodobé výsledky jsou minimálně diskutabilní.<br/>"
+    },
+    "blog3": {
+      "title": "Kvalitní a zároveň smysluplný copywriting?",
+      "longTitle": "Je možné dělat kvalitní a zároveň smysluplný copywriting?",
+      "shortText": "Nepopiratelným faktem je, že ve světě marketingu se posuzuje kvalita textu primárně podle jeho prodejnosti, nikoliv podle morálnosti či důsledné smysluplnosti...",
+      "longText": "<h4>Je možné dělat kvalitní a zároveň smysluplný copywriting?</h4>Nepopiratelným faktem je, že ve světě marketingu se posuzuje kvalita textu primárně podle jeho prodejnosti, nikoliv podle morálnosti či důsledné smysluplnosti, to jsou až sekundární kvality.<br/><br/>Otázka, kterou si zde kladu, vychází ze soustavného sledování všemožných webů lepších i horších digitálních agentur.<br/><br/>Domácí trh je doslova přehlcen texty o úspěchu, cestě za zlepšením atd. Všechno je plné sebevědomých frází o kvalitě produktu, tradici, malé firmě, kde jsou všichni nejvíc nejlepší kámoši, nebo naopak velké firmě, kde jsou ale i přes korporátní life zaměstnanci pořád hrozně free.<br/><br/>Na základě takových informací (nehledě na reference) by se mohlo zdát, že prostě nemůžete šlápnout vedle. Rád bych se vydal vstříc ideálním zítřkům, skeptický alarm a filozofické vzdělání mě však varuje.<br/><br/>Namátkou vybírám jeden subheadline nejmenované stránky: „Věříme, že řešení existuje na všechno.“ Hm, co tím chtěl autor říct? Má to zákazník chápat tak, že tomu sice daná agentura věří, avšak na všechny problémy řešení neexistuje, nebo že jen věří svým schopnostem za hranici absurdity? Patrně tím jen prezentuje gigantickou suverénnost jejich projektu, což není nic nového ani originálního, jen to podává pomocí jiných znaků.<br/><br/>Nerad bych někoho urazil nebo apeloval na hyperkorektnost, jen se pozastavuji nad skutečností, že copywriterská honba za originálním, sebevědomým a ultimátním textem vede k tomu, že těmito vlastnostmi disponují ve výsledku všichni a zároveň nikdo.<br/><br/>Možnou cestu z této pomyslné pasti spatřuji v ražení nových trendů, které nikdo nemá možnost sledovat, protože dosud neexistují. Je to cesta, kterou se může jednotlivá firma alespoň na chvíli odlišit, než se objeví zástup copywriterů přebírající trend."
+    },
+    "blog4": {
+      "title": "Přístupnost webových stránek",
+      "longTitle": "Co a proč je důležitá přístupnost webových stránek a aplikací",
+      "shortText": "S poněkud vágním termínem „přístupný web“ si mnoho laiků může spojovat leccos. Pro vývojáře současných webů a aplikací však znamená...",
+      "longText": "<h4>Co a proč je důležitá přístupnost webových stránek a aplikací</h4>S poněkud vágním termínem „přístupný web“ si mnoho laiků může spojovat leccos. Pro vývojáře současných webů a aplikací však znamená dosti konkrétní parametr, který je potřeba při developmentu zakomponovat.<h4>Co je přístupný web?</h4>Z obecného hlediska je přístupný takový web, který uživateli neklade ideálně žádné překážky. Pokud tedy usilujeme o přístupnost našeho webu či aplikace, snažíme se eliminovat všechny možné funkční i orientační překážky. Jako jednoduchý příklad si uveďme použití kontrastního černého písma na bílém (či jinak světlém) pozadí. Tímto docílíme toho, že se uživatel nebude muset nadměrně snažit při čtení textu a lépe se zorientuje v rozložení stránky. Přístupnost webu se však netýká pouze průměrně zdatných uživatelů. Snaha o co možná nejpřístupnější web je směřována ve velké míře také na lidi, kteří trpí nějakým handicapem, nedisponují dostatečnými znalostmi a schopnostmi v oblasti digitálního světa (zejména starší generace) nebo prostě jen nemají dostatečné technické vybavení (jsou např. odkázáni pouze na používání tabletu či mobilního telefonu).<h4>Proč je přístupnost Vašeho webu a aplikací důležitá?</h4>Důvodů, proč usilovat o přístupný web je více a mají různou povahu. Podle výběrového šetření Českého statistického úřadu „mezi obyvateli České republiky ve věku 15 a více let, kteří žili v soukromých domácnostech, bylo v roce 2018 přibližně 13 % osob se zdravotním postižením.“ I když ne všichni z této množiny lidí disponují skutečně vážnými problémy, je určitě na místě tvrdit, že lidí, kteří vyžadují specifické podmínky není málo. V digitálním světě to pak znamená propojení asistivních technologií a vhodně vytvořených webů a aplikací. Dalším důvodem je motivace k napomáhání internetovým vyhledávačům. Zde nejde ani tak o vizuální přehlednost a „bezbariérovost“, jako o přehledně napsaný kód stránky, který zaručí lepší orientaci, z níž plyne také lepší SEO. S přístupností se velmi úzce pojí responzivita. Ve zkratce jde o navržení takového webu či aplikace, která bude mít na libovolném zařízení uživatelsky stále bezproblémovou kvalitu. Srozumitelným příkladem je webová stránka, která se bude přijatelně zobrazovat na monitoru počítače i na obrazovce dotykového telefonu a bude přizpůsobena tak, aby uživateli nedělalo problémy dotykové ovládání (např. u rozteče navigačních ikon).<h4>Závěrem</h4>Z výše uvedeného je jasné, že digitální přístupnost webových stránek a aplikací nemůže žádný seriózní člověk usilující o návštěvnost a využívání jeho služeb zanedbat. Ignorování překážek v přístupnosti může mít v dnešní době, která jde uživateli stále více vstříc až fatální dopad. V PPF Media děláme stránky i aplikace zcela přístupné pro všechny. Kontaktujte nás."
     }
   },
 
@@ -187,5 +243,8 @@
     "phone": "Phone",
     "email": "E-mail",
     "submit": "Send"
+  },
+  "footer": {
+    "title": "The latest articles"
   }
 }

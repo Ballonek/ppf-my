@@ -47,13 +47,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding: 1rem 0;
   width: 95%;
   border: 5px solid $color-blue;
   border-radius: 60px;
   position: relative;
-  min-height: 300px;
+  min-height: 450px;
   // height: auto;
   max-width: 350px;
   &::before {
@@ -79,7 +79,8 @@
     // align-items: center;
   }
   @media screen and (max-width: 480px) {
-    justify-content: center;
+    // justify-content: center;
+    min-height: 350px;
   }
   @media screen and (max-width: 350px) {
     justify-content: center;
@@ -96,8 +97,12 @@
   .career-header {
     font-size: 2.5rem;
     color: $color-blue;
-    // width: 80%;
+    line-height: 2.5rem;
+    // max-width: 50%;
     // margin: 0 auto;
+    padding-left: 2rem;
+    align-self: baseline;
+    padding-bottom: 1rem;
     @media all and (max-width: 596px) {
       // font-size: 2rem;
     }
@@ -105,7 +110,9 @@
       font-size: 2.2rem;
     }
     @media screen and (max-width: 480px) {
-      font-size: 1.5rem;
+      font-size: 1.8rem;
+      max-width: 50%;
+      line-height: 1.8rem;
     }
   }
 
@@ -138,7 +145,7 @@
       // font-size: 1.3rem;
     }
     @media screen and (max-width: 480px) {
-      font-size: 1rem;
+      font-size: 1.2rem;
     }
   }
 }

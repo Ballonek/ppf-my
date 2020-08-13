@@ -33,9 +33,9 @@ const CarrerCard = ({
       </div>
       <div onClick={(e) => e.stopPropagation()}>
         <Modal
-          isOpen={modalIsOpen}
+          // isOpen={modalIsOpen}
           className="careerModal"
-          toggle={toggle}
+          // toggle={toggle}
         >
           <div className="modalRowCareer">
             <div className="icon-wrapper">

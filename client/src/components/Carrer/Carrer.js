@@ -23,12 +23,12 @@ const Carrer = ({ t }) => {
         <span className="color2"> {t("career.title.line2")}</span>
       </div>
       <Carousel
-        infinite
+        // infinite
         arrows
         className="career-carousel"
         slidesPerPage="3"
-        autoPlay={4000}
-        animationSpeed={1000}
+        // autoPlay={4000}
+        // animationSpeed={1000}
         breakpoints={{
           1130: {
             slidesPerPage: 2,

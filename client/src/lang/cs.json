@@ -176,18 +176,18 @@
     },
     "designer": {
       "title": "#GRAFIK",
-      "line1": "#tvorba <span class='red'>návrhů</span>",
+      "line1": "#tvorba návrhů",
       "line2": "#kresba",
-      "line3": "#kreativní <span class='red'>mysl</span>",
+      "line3": "#kreativní mysl",
       "long1": "<p>#tvorba <span class='blue'>návrhů</span></p><p>#kresba</p><p>#kreativní <span class='blue'>mysl</span></p><p>#chuť <span class='blue'>tvořit</span></p><p>#přiměřený <span class='blue'>skill</span></p>",
       "long2": "<p>#svoboda</p><p>#<span class='blue'>pohoda</span> v práci</p><p>#férová <span class='blue'>odměna</span></p><p><span class='blue'>#zkušenosti</span></p><p>#mnohem víc</p>",
       "long3": "Náš grafik by měl být zkrátka pohodář, který se nezalekne žádné výzvy a je schopný přicházet s novými nápady, které nás i zákazníky ohromí."
     },
     "developer": {
       "title": "#VÝVOJÁŘ",
-      "line1": "#originální <span class='red'>řešení</span>",
-      "line2": "#<span class='red'>ambice</span> jít vpřed",
-      "line3": "#analytická <span class='red'>mysl</span>",
+      "line1": "#originální řešení",
+      "line2": "#ambice jít vpřed",
+      "line3": "#analytická mysl",
       "long1": "<p>#originální <span class='blue'>řešení</span></p><p>#<span class='blue'>ambice</span> jít vpřed</p><p>#analytická <span class='blue'>mysl</span></p><p>#eliminace <span class='blue'>problémů</span></p><p>#přiměřený <span class='blue'>skill</span></p>",
       "long2": "<p>#svoboda</p><p>#<span class='blue'>pohoda</span> v práci</p><p>#férová <span class='blue'>odměna</span></p><p>#mnohem víc</p>",
       "long3": "Náš vývojář by měl být znalý nejpoužívanějších programovacích jazyků a měl by být schopný vyřešit i neřešitelné. Logické a analytické schopnosti jsou samozřejmostí."
@@ -243,5 +243,8 @@
     "phone": "Telefon",
     "email": "E-mail",
     "submit": "Odeslat"
+  },
+  "footer": {
+    "title": "Nejnovější příspěvky"
   }
 }

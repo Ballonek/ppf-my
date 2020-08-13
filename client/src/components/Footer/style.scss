@@ -38,7 +38,8 @@
     z-index: 4;
     flex-direction: column;
     @media (max-width: 480px) {
-    
+      margin-right: 2rem !important;
+
       &::after {
         z-index: 1;
         content: "";

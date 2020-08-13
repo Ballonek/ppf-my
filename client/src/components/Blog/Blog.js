@@ -6,13 +6,13 @@ import BlogCard from "./BlogCard"
 import ReactHtmlParser from "react-html-parser"
 import "./style.scss"
 import { Container } from "reactstrap"
-// import { accessibility, covid, seo, typewriter } from "../../assets/blog"
+import { accessibility, covid, seo, typewriter } from "../../assets/blog"
 
 const blogs = [
-  { number: 1, icon: "icon-bitcoin" },
-  { number: 2, icon: "icon-copywriting", blue: true },
-  { number: 3, icon: "icon-pristupnost-web"},
-  { number: 4, icon: "icon-seo", blue: true },
+  { number: 1, icon: accessibility },
+  { number: 2, icon: covid, blue: true },
+  { number: 3, icon: typewriter },
+  { number: 4, icon: seo, blue: true },
 ]
 
 const Blog = ({ t }) => {
