@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d43050fb0a941cb73c4d42a3aec4c777",
+    "revision": "804e1cdbd49eb7ca02d15ac788ad756f",
     "url": "/ppf-my/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ppf-my/static/css/2.b9b43d8e.chunk.css"
   },
   {
-    "revision": "d44cd5eefac6bb937020",
-    "url": "/ppf-my/static/css/main.6e971d72.chunk.css"
+    "revision": "8365e818688d8cd76af0",
+    "url": "/ppf-my/static/css/main.d505b6a3.chunk.css"
   },
   {
     "revision": "2397f5a82ce15a133332",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ppf-my/static/js/2.033b58e8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d44cd5eefac6bb937020",
-    "url": "/ppf-my/static/js/main.a7ce9b73.chunk.js"
+    "revision": "8365e818688d8cd76af0",
+    "url": "/ppf-my/static/js/main.519e22fe.chunk.js"
   },
   {
     "revision": "5d2fbfc2b840221df02a",
@@ -116,12 +116,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ppf-my/static/media/app_dev.51c12491.svg"
   },
   {
+    "revision": "8b26e035d43030e2abefa623a006afcb",
+    "url": "/ppf-my/static/media/bitcoin.8b26e035.svg"
+  },
+  {
     "revision": "5636811fd0922d8d0dc52bb953ff60ca",
     "url": "/ppf-my/static/media/close.5636811f.svg"
   },
   {
     "revision": "80988eb0c03a153ec8109871ce348c49",
     "url": "/ppf-my/static/media/cloud.80988eb0.svg"
+  },
+  {
+    "revision": "2247abf356c8182566550f4fdd58af09",
+    "url": "/ppf-my/static/media/copywriting.2247abf3.svg"
   },
   {
     "revision": "2f800c3d73f17c9deb57aa9a0c9b267a",
@@ -186,6 +194,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1b8a13f27ce47c75f32420e7c881a025",
     "url": "/ppf-my/static/media/plusko_1.1b8a13f2.svg"
+  },
+  {
+    "revision": "7e063d445ae146afc318551c32ee8a2f",
+    "url": "/ppf-my/static/media/pristupnost_web.7e063d44.svg"
+  },
+  {
+    "revision": "09bed027065fbafdc72036ffa4f4cb9a",
+    "url": "/ppf-my/static/media/seo.09bed027.svg"
   },
   {
     "revision": "4f9aa5b64276204879f113fbbbccf16a",
