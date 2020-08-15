@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/ppf-my/static/css/main.d505b6a3.chunk.css",
-    "main.js": "/ppf-my/static/js/main.3e356bc2.chunk.js",
-    "main.js.map": "/ppf-my/static/js/main.3e356bc2.chunk.js.map",
+    "main.css": "/ppf-my/static/css/main.db5ebe33.chunk.css",
+    "main.js": "/ppf-my/static/js/main.f6071742.chunk.js",
+    "main.js.map": "/ppf-my/static/js/main.f6071742.chunk.js.map",
     "runtime-main.js": "/ppf-my/static/js/runtime-main.7b79a7c2.js",
     "runtime-main.js.map": "/ppf-my/static/js/runtime-main.7b79a7c2.js.map",
     "static/css/2.b9b43d8e.chunk.css": "/ppf-my/static/css/2.b9b43d8e.chunk.css",
     "static/js/2.033b58e8.chunk.js": "/ppf-my/static/js/2.033b58e8.chunk.js",
     "static/js/2.033b58e8.chunk.js.map": "/ppf-my/static/js/2.033b58e8.chunk.js.map",
     "index.html": "/ppf-my/index.html",
-    "precache-manifest.65b08a693cebe7a6af44e641765f8b5a.js": "/ppf-my/precache-manifest.65b08a693cebe7a6af44e641765f8b5a.js",
+    "precache-manifest.54b91b8d998d7e7df0c265e1189d7750.js": "/ppf-my/precache-manifest.54b91b8d998d7e7df0c265e1189d7750.js",
     "service-worker.js": "/ppf-my/service-worker.js",
     "static/css/2.b9b43d8e.chunk.css.map": "/ppf-my/static/css/2.b9b43d8e.chunk.css.map",
-    "static/css/main.d505b6a3.chunk.css.map": "/ppf-my/static/css/main.d505b6a3.chunk.css.map",
+    "static/css/main.db5ebe33.chunk.css.map": "/ppf-my/static/css/main.db5ebe33.chunk.css.map",
     "static/js/2.033b58e8.chunk.js.LICENSE.txt": "/ppf-my/static/js/2.033b58e8.chunk.js.LICENSE.txt",
     "static/media/APP_dollar.svg": "/ppf-my/static/media/APP_dollar.ab866af1.svg",
     "static/media/APP_facebook.svg": "/ppf-my/static/media/APP_facebook.66574d20.svg",
@@ -57,6 +57,7 @@
     "static/media/plusko_1.svg": "/ppf-my/static/media/plusko_1.1b8a13f2.svg",
     "static/media/pristupnost_web.7e063d44.svg": "/ppf-my/static/media/pristupnost_web.7e063d44.svg",
     "static/media/seo.09bed027.svg": "/ppf-my/static/media/seo.09bed027.svg",
+    "static/media/sipka.e6578565.svg": "/ppf-my/static/media/sipka.e6578565.svg",
     "static/media/social.svg": "/ppf-my/static/media/social.4f9aa5b6.svg",
     "static/media/style.scss": "/ppf-my/static/media/track.0a39789c.svg",
     "static/media/training.svg": "/ppf-my/static/media/training.106ed619.svg",
@@ -69,7 +70,7 @@
     "static/js/runtime-main.7b79a7c2.js",
     "static/css/2.b9b43d8e.chunk.css",
     "static/js/2.033b58e8.chunk.js",
-    "static/css/main.d505b6a3.chunk.css",
-    "static/js/main.3e356bc2.chunk.js"
+    "static/css/main.db5ebe33.chunk.css",
+    "static/js/main.f6071742.chunk.js"
   ]
 }
