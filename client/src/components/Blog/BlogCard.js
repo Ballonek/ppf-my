@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import ReactHtmlParser from "react-html-parser"
 import { Modal } from "reactstrap"
 import { close } from "../../assets"
+import { Sipka } from "../../assets/blog"
 
 const BlogCard = ({ blue, title, shortText, longText, icon }) => {
   const [modalIsOpen, setModalIsOpen] = useState(false)
@@ -19,6 +20,9 @@ const BlogCard = ({ blue, title, shortText, longText, icon }) => {
       </div>
       <div className="blog-header">{ReactHtmlParser(title)}</div>
       <div className="blog-text">{ReactHtmlParser(shortText)}</div>
+      <div className="blog-arrow">
+        <Sipka />
+      </div>
       <div className="modal-container">
         <Modal
           isOpen={modalIsOpen}

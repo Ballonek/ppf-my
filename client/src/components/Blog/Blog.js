@@ -9,15 +9,15 @@ import { Container } from "reactstrap"
 import { accessibility, covid, seo, typewriter } from "../../assets/blog"
 
 const blogs = [
-  { number: 1, icon: accessibility },
-  { number: 2, icon: covid, blue: true },
+  { number: 1, icon: seo },
+  { number: 2, icon: covid },
   { number: 3, icon: typewriter },
-  { number: 4, icon: seo, blue: true },
+  { number: 4, icon: accessibility },
 ]
 
 const Blog = ({ t }) => {
   return (
-    <Container className="blog-wrapper" id='blog'>
+    <Container className="blog-wrapper" id="blog">
       <div className="header-text">{ReactHtmlParser(t("blog.title"))}</div>
       <div className="header">{ReactHtmlParser(t("blog.subtitle"))}</div>
       <Carousel
@@ -28,7 +28,7 @@ const Blog = ({ t }) => {
         animationSpeed={1000}
         breakpoints={{
           1366: {
-            slidesPerPage: 3
+            slidesPerPage: 3,
           },
           1130: {
             slidesPerPage: 2,
