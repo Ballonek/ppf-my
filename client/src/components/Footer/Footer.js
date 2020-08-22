@@ -37,8 +37,8 @@ const Footer = ({ t }) => {
         <h4 style={{textTransform: 'uppercase'}}>{t(`footer.title`)}</h4>
         <div className="leftBorder2">
           <TextLoop mask={true}>
-            {blogs.map((blog) => (
-              <button onClick={scrollTo} href="#blog" className="mailLink">
+            {blogs.map((blog, idx) => (
+              <button key={idx} onClick={scrollTo} href="#blog" className="mailLink">
                 {t(`blog.blog${blog.number}.title`)}
               </button>
             ))}

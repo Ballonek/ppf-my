@@ -5,7 +5,7 @@ import SegmentCard from "./SegmentCard"
 import { Container } from "reactstrap"
 import "./style.scss"
 import AnimateHeight from "react-animate-height"
-import Carousel from "@brainhubeu/react-carousel"
+// import Carousel from "@brainhubeu/react-carousel"
 import { plusko_1 } from "../../assets/segs"
 
 import "@brainhubeu/react-carousel/lib/style.css"
@@ -55,7 +55,7 @@ const TwelveSegments = ({ t }) => {
     window.matchMedia("(min-width: 769px)").addListener(handler)
   }, [matches])
 
-  console.log(matches.matches)
+  // console.log(matches.matches)
   return (
     <Container className="tw-wrapper" id="whatWeDo">
       <TwHeader />
@@ -95,6 +95,7 @@ const TwelveSegments = ({ t }) => {
                   />
                 )
               }
+              return false
             })}
           </AnimateHeight>
           <button
