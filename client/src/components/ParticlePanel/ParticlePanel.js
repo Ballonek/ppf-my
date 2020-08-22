@@ -33,7 +33,7 @@ const ParticlePanel = ({ t }) => {
           },
           particles: {
             number: {
-              value: 85,
+              value: 50,
               density: {
                 enable: true,
                 value_area: 5000,

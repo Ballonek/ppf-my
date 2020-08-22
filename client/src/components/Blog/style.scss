@@ -27,7 +27,7 @@
     width: 100vw;
     max-width: 1250px;
     margin-top: 200px;
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.2rem;
 
     color: $color-blue;
     font-family: Gilroy;
@@ -46,7 +46,7 @@
       font-size: 3rem;
       // max-width: 300px;
       // margin: 80px auto 0 auto;
-      margin-top: 20px;
+      // margin-top: 20px;
     }
   }
   .header {
@@ -75,7 +75,7 @@
     @media all and (max-width: 596px) {
       font-size: 2rem;
       max-width: 300px;
-      margin-top: 20px;
+      // margin-top: 20px;
     }
   }
 
