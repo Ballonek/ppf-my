@@ -2,16 +2,23 @@ import React from "react"
 import Particles from "react-particles-js"
 import { withTranslation } from "react-multi-lang"
 import particles from "../../assets/particles/particles"
-import './style.scss';
+import "./style.scss"
 import { Container } from "reactstrap"
 import Rellax from "react-rellax"
-
+import scrollIntoView from "scroll-into-view"
 
 const ParticlePanel = ({ t }) => {
+  const scrollTo = (e) => {
+    const anchor = document.querySelector(`#contact`)
+    scrollIntoView(anchor, {
+      time: 1000,
+    })
+  }
+
   return (
-    <div className="particles-wrapper" id='top'>
-    <Rellax speed={-4} className="block2" />
-    <Rellax speed={-4} className="block3" />
+    <div className="particles-wrapper" id="top">
+      <Rellax speed={-4} className="block2" />
+      <Rellax speed={-4} className="block3" />
       <Particles
         className="particles-canvas"
         params={{
@@ -85,7 +92,7 @@ const ParticlePanel = ({ t }) => {
 
       <div className="particle-panel">
         <Container>
-        <Rellax speed={-3} className="block1" />
+          <Rellax speed={-3} className="block1" />
           <div className="particle-panel-center">
             <div className="header-text">
               {t("particlesPanel.title.line1")}
@@ -96,12 +103,9 @@ const ParticlePanel = ({ t }) => {
             <div className="contact-us-btn-wrapper">
               <button
                 className="contact-us-btn"
-                // onClick={() => {
-                //   scroll.scrollTo("contact", {
-                //     smooth: true,
-                //     offset: -150,
-                //   })
-                // }}
+                onClick={() => {
+                  scrollTo()
+                }}
               >
                 {t("global.contactUs")}
               </button>
