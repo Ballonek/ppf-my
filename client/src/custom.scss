@@ -382,7 +382,7 @@
     right: 48px;
     width: 32px;
 
-    filter: brightness(0) invert(1) drop-shadow(0 0 6px rgba(0, 0, 0, 0.3));
+    // filter: brightness(0) invert(1) drop-shadow(0 0 6px rgba(0, 0, 0, 0.3));
 
     // @media screen and (max-width: 666px) {
     //   display: none;
@@ -438,7 +438,7 @@
     font-family: Gilroy;
     text-align: left;
     line-height: 1em;
-    margin-top: 6rem;
+    margin-top: 6.5rem;
     margin-left: 6rem;
     padding-right: 2rem;
     letter-spacing: 0.1em;
@@ -573,7 +573,7 @@
     text-align: left;
     line-height: 1em;
     @media screen and (max-width: 666px) {
-      margin-top: 3rem;
+      margin-top: 3.25rem;
     }
   }
   .subtitle {
