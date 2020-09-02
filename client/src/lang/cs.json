@@ -53,7 +53,7 @@
       },
       "appDevelopment": {
         "title": "Vývoj aplikací",
-        "shortText": "Vyladěné aplikace Vás dovedou k úspěchu a vaše klienty k pohodlnému životu.",
+        "shortText": "Vyladěné aplikace Vás dovedou k úspěchu a Vaše klienty k pohodlnému životu.",
         "longText": "Vytváříme progresivní webové (PWA), native (NA) i hybridní aplikace.<br/><br/>Windows, Linux, Android nebo iOS? Vyberte si platformy, my zařídíme zbytek.<br/><br/>Naše aplikace Vám i Vašim klientům zaručeně usnadní život a ušetří čas. <br/><br/>Garantujeme Vám bezchybnou funkčnost všech aplikací a stálou podporu i během jejich chodu.",
         "longText2": "Máte již rozpracovanou nebo dokonce zaběhnutou aplikaci? Posloužíme Vám jako inovační nástroj a upgradujeme vaši aplikaci na verzi 2.0.<br/><br/>Obstojná aplikace bez marketingu nefunguje, protože konkurence v aplikacích je obrovská. Nechte nás, abychom protlačili tu Vaši mezi zákazníky a Vy byli úspěšní. Sklízejte jen kladné reference."
       },
@@ -83,7 +83,7 @@
       },
       "analysis": {
         "title": "Analýza / strategie",
-        "shortText": "Když vše nefunguje tak, jak by mělo. Najděte s námi příčinu i řešení problému",
+        "shortText": "Když vše nefunguje tak, jak by mělo. Najděte s námi příčinu i řešení problému.",
         "longText": "Pokud se zaměříme na libovolný komplexní proces, tak je vždy možné nalézt momenty, které tento proces nějakým způsobem narušují nebo brzdí. Nalézt takové momenty vyžaduje určitou analytickou znalost. Tuto znalost máme a jsme připraveni ji aplikovat na Vaše firemní procesy a posunout Vás vpřed.<br/><br/>Klíčem k odhalení nedostatků je primárně analýza firemní kultury, která je vždy specifická pro každou společnost. Analýza vychází z pracovní náplně klíčových zaměstnanců, vnitrofiremních procesů, vztahů a obecně nastavených pravidel a hodnot.",
         "longText2": "Na základě analýzy vypracujeme nejlepší možnou strategii na míru, budeme u její aplikace a navrhneme i dodatečné korekce, tak aby byla vaše firma spokojená. Vše bude stále ve Vaší režii.<br/><br/>Harmonogram procesu:<br/><br/><ol><li>Definice aktuální situace</li><li>Analýza silných a slabých stránek, hledání rizikových momentů</li><li>Návrh strategie pro zlepšení procesů</li><li>Kontrola hladkého průběhu aplikace změn</li></ol>"
       },
@@ -171,6 +171,7 @@
 
   "career": {
     "title": {
+      "title": "Kariéra",
       "line1": "Nastartujte s námi svůj",
       "line2": "osobní rozvoj"
     },

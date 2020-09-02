@@ -17,7 +17,7 @@ const employes = [
 const Carrer = ({ t }) => {
   return (
     <Container className="career-wrapper" id="career">
-      <div className="header-text">Kariéra</div>
+      <div className="header-text">{t("career.title.title")}</div>
       <div className="header">
         {t("career.title.line1")}
         <span className="color2"> {t("career.title.line2")}</span>

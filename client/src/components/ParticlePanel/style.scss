@@ -148,9 +148,10 @@
 
   background-color: rgba(0, 0, 0, 0);
   transition: color $button-fade-time ease-in-out,
-    background-color $button-fade-time ease-in-out;
+  background-color $button-fade-time ease-in-out;
 
-    @media all and (max-width: 480px) {
+  @media all and (max-width: 480px) {
+    letter-spacing: 0.15rem;
       // padding: 0.5rem 1.5rem;
     }
 }

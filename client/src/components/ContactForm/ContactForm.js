@@ -10,15 +10,15 @@ import { plusko_1 } from "../../assets/segs"
 
 const segments = [
   { name: "webDevelopment", price: 40000, value: "webDevelopment" },
+  { name: "appDevelopment", price: 50000, value: "appDevelopment" },
   { name: "designStudio", price: 20000, value: "designStudio" },
   { name: "corporateIdentity", price: 10000, value: "corporateIdentity" },
-  { name: "hrMarketing", price: 30000, value: "hrMarketing" },
   { name: "socialMedia", price: 10000, value: "socialNetworking" },
-  { name: "appDevelopment", price: 50000, value: "appDevelopment" },
-  { name: "offlineMarketing", price: 10000, value: "offlineMarketing" },
-  { name: "onlineStaffTraining", price: 10000, value: "onlineMarketing" },
-  { name: "analysis", price: 10000, value: "marketAnalysis" },
   { name: "animations", price: 50000, value: "animations" },
+  { name: "hrMarketing", price: 30000, value: "hrMarketing" },
+  { name: "offlineMarketing", price: 10000, value: "offlineMarketing" },
+  { name: "analysis", price: 10000, value: "marketAnalysis" },
+  { name: "onlineStaffTraining", price: 10000, value: "onlineMarketing" },
   { name: "photo", price: 20000, value: "photoVideo" },
   { name: "cloud", price: 20000, value: "cloudSolutions" },
 ]
@@ -71,8 +71,8 @@ const ContactForm = ({ t }) => {
         setTimeout(() => {
           emailjs
             .send(
-              "default_service",
-              "vypln_n_kontakt_formul_e",
+              "ppf_smtp_server",
+              "template_WDJCkKjQ",
               {
                 userEmail: values.email,
                 userPhone: values.phone,
@@ -82,7 +82,7 @@ const ContactForm = ({ t }) => {
                 userComment: values.comment,
                 userInfo: JSON.stringify(values.services),
               },
-              "user_TQM6Hy6UpuGMtT5osi2WG"
+              "user_vSaiMoxEWbf3Sgz6BrrFy"
             )
             .then(
               (response) => {

@@ -15,15 +15,15 @@ import "./style.scss"
 
 const segments = [
   { name: "webDevelopment", price: 40000, value: "webDevelopment" },
+  { name: "appDevelopment", price: 50000, value: "appDevelopment" },
   { name: "designStudio", price: 20000, value: "designStudio" },
   { name: "corporateIdentity", price: 10000, value: "corporateIdentity" },
-  { name: "hrMarketing", price: 30000, value: "hrMarketing" },
   { name: "socialMedia", price: 10000, value: "socialNetworking" },
-  { name: "appDevelopment", price: 50000, value: "appDevelopment" },
-  { name: "offlineMarketing", price: 10000, value: "offlineMarketing" },
-  { name: "onlineStaffTraining", price: 10000, value: "onlineMarketing" },
-  { name: "analysis", price: 10000, value: "marketAnalysis" },
   { name: "animations", price: 50000, value: "animations" },
+  { name: "hrMarketing", price: 30000, value: "hrMarketing" },
+  { name: "offlineMarketing", price: 10000, value: "offlineMarketing" },
+  { name: "analysis", price: 10000, value: "marketAnalysis" },
+  { name: "onlineStaffTraining", price: 10000, value: "onlineMarketing" },
   { name: "photo", price: 20000, value: "photoVideo" },
   { name: "cloud", price: 20000, value: "cloudSolutions" },
 ]

@@ -171,8 +171,9 @@
 
   "career": {
     "title": {
-      "line1": "Nastartujte s námi svůj",
-      "line2": "osobní rozvoj"
+      "title": "Career",
+      "line1": "Start your",
+      "line2": "personal development"
     },
     "designer": {
       "title": "#GRAPHIC DESIGNER",
