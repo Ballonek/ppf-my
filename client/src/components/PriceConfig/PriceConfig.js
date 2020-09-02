@@ -48,7 +48,7 @@ const PriceConfig = ({ t }) => {
   }, [matches])
 
   const handleSliderOpen = (e) => {
-    e.preventDefault();
+    e.preventDefault()
     setSliderIsOpen(!sliderIsOpen)
   }
 
