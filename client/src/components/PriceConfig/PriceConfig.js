@@ -28,6 +28,10 @@ const segments = [
   { name: "cloud", price: 20000, value: "cloudSolutions" },
 ]
 
+const ServiceID = "ppf_media_email"
+const TemplateID = "template_ppf"
+const UserID = "user_vSaiMoxEWbf3Sgz6BrrFy"
+
 const PriceConfig = ({ t }) => {
   const [sliderValue, setSliderValue] = useState(25)
   const [modalIsOpen, setModalIsOpen] = useState(false)
@@ -89,8 +93,8 @@ const PriceConfig = ({ t }) => {
         setTimeout(() => {
           emailjs
             .send(
-              "ppf_media_email",
-              "template_ppf",
+              ServiceID,
+              TemplateID,
               {
                 userEmail: values.email,
                 userPhone: "NENÍ",
@@ -100,7 +104,7 @@ const PriceConfig = ({ t }) => {
                 userInfo: JSON.stringify(values.services),
                 userSlider: sliderValue,
               },
-              "user_vSaiMoxEWbf3Sgz6BrrFy"
+              UserID
             )
             .then(
               (response) => {
