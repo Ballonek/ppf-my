@@ -71,8 +71,8 @@ const ContactForm = ({ t }) => {
         setTimeout(() => {
           emailjs
             .send(
-              "ppf_smtp_server",
-              "template_WDJCkKjQ",
+              "ppf_media_email",
+              "template_ppf",
               {
                 userEmail: values.email,
                 userPhone: values.phone,

@@ -89,8 +89,8 @@ const PriceConfig = ({ t }) => {
         setTimeout(() => {
           emailjs
             .send(
-              "default_service",
-              "vypln_n_kontakt_formul_e",
+              "ppf_media_email",
+              "template_ppf",
               {
                 userEmail: values.email,
                 userPhone: "NENÍ",
@@ -100,7 +100,7 @@ const PriceConfig = ({ t }) => {
                 userInfo: JSON.stringify(values.services),
                 userSlider: sliderValue,
               },
-              "user_TQM6Hy6UpuGMtT5osi2WG"
+              "user_vSaiMoxEWbf3Sgz6BrrFy"
             )
             .then(
               (response) => {
