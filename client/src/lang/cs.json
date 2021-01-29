@@ -14,7 +14,7 @@
     "priceConfig": "Konfigurátor projektu",
     "whatWeDo": "Co děláme",
     "creativeProcess": "Jak to děláme",
-    "career": "Kariéra",
+    "career": "Spolupráce",
     "blog": "Blog",
     "contact": "Kontakt"
   },
@@ -151,7 +151,7 @@
         "subtext": "Chápeme, jste malá firmička nebo jednotlivec s omezeným rozpočtem. My Vás v tom rozhodně nenecháme, každý totiž jednou začínal."
       },
       "25": {
-        "title": "Méně peněž - více muziky",
+        "title": "Méně peněz - více muziky",
         "subtext": "Máte přiměřené množství kapitálu, my Vám za něj zhotovíme obstojný projekt, za který se nebudete moci stydět."
       },
       "50": {
@@ -171,7 +171,7 @@
 
   "career": {
     "title": {
-      "title": "Kariéra",
+      "title": "Spolupráce",
       "line1": "Nastartujte s námi svůj",
       "line2": "osobní rozvoj"
     },
